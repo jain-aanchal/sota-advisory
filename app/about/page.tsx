@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export default function AboutPage() {
     <>
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">ABOUT</div>
-        <h1 className="font-serif text-4xl md:text-5xl max-w-3xl">
+        <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl whitespace-nowrap">
           Aanchal Jain, Founder of SOTA Advisory.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
@@ -23,7 +24,17 @@ export default function AboutPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-20 grid gap-12 md:grid-cols-[1fr_2fr]">
-        <aside className="space-y-6">
+        <aside className="space-y-8">
+          <div className="relative aspect-square w-full overflow-hidden border border-gold/30">
+            <Image
+              src="/aanchal.jpg"
+              alt="Aanchal Jain, Founder of SOTA Advisory"
+              fill
+              sizes="(max-width: 768px) 100vw, 33vw"
+              className="object-cover"
+              priority
+            />
+          </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">ROLE</h3>
             <p className="text-sm">Founder & Fractional CTO</p>
