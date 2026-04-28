@@ -30,11 +30,7 @@ jobs:
           enablement: true
       - run: npm ci
       - name: Build
-        env:
-          # When deploying to a project page (https://<user>.github.io/<repo>),
-          # configure-pages exposes the base_path. For a custom domain or a
-          # user/org page, this resolves to "" automatically.
-          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        # Custom domain (sotaadvisory.com) — no basePath needed.
         run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
