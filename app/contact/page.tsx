@@ -14,8 +14,8 @@ const channels = [
   },
   {
     label: "CALENDLY",
-    value: "calendly.com/jain-aanchal",
-    href: "https://calendly.com/jain-aanchal",
+    value: "calendly.com/jain-aanchal/30min",
+    href: "https://calendly.com/jain-aanchal/30min",
   },
   {
     label: "LINKEDIN",
@@ -74,7 +74,7 @@ export default function ContactPage() {
             highest-leverage move you can make this quarter.
           </p>
           <a
-            href="https://calendly.com/jain-aanchal"
+            href="https://calendly.com/jain-aanchal/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center px-6 py-3 bg-gold text-background text-xs tracking-display hover:bg-gold-light transition-colors"

@@ -110,7 +110,7 @@ export default function AboutPage() {
             </p>
           </div>
           <Link
-            href="https://calendly.com/jain-aanchal"
+            href="https://calendly.com/jain-aanchal/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gold text-background text-xs tracking-display hover:bg-gold-light transition-colors whitespace-nowrap"

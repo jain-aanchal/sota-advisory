@@ -26,7 +26,7 @@ export default function Nav() {
             </Link>
           ))}
           <Link
-            href="https://calendly.com/jain-aanchal"
+            href="https://calendly.com/jain-aanchal/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center px-4 py-2 border border-gold text-gold text-xs tracking-display hover:bg-gold hover:text-background transition-colors"

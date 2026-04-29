@@ -40,7 +40,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://calendly.com/jain-aanchal"
+                href="https://calendly.com/jain-aanchal/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gold"

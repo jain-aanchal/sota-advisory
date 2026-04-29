@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
-              href="https://calendly.com/jain-aanchal"
+              href="https://calendly.com/jain-aanchal/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gold text-background text-xs tracking-display hover:bg-gold-light transition-colors"
@@ -122,7 +122,7 @@ export default function Home() {
             can make in the next quarter.
           </p>
           <Link
-            href="https://calendly.com/jain-aanchal"
+            href="https://calendly.com/jain-aanchal/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center px-6 py-3 bg-gold text-background text-xs tracking-display hover:bg-gold-light transition-colors"
