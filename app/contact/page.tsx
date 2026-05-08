@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 const channels = [
   {
     label: "EMAIL",
-    value: "jain.aanchal@gmail.com",
-    href: "mailto:jain.aanchal@gmail.com",
+    value: "aanchal@sotaadvisory.com",
+    href: "mailto:aanchal@sotaadvisory.com",
   },
   {
     label: "CALENDLY",

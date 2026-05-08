@@ -24,8 +24,8 @@ export default function Footer() {
           <h3 className="text-xs tracking-display text-gold mb-4">CONNECT</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="mailto:jain.aanchal@gmail.com" className="hover:text-gold">
-                jain.aanchal@gmail.com
+              <a href="mailto:aanchal@sotaadvisory.com" className="hover:text-gold">
+                aanchal@sotaadvisory.com
               </a>
             </li>
             <li>
