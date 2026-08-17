@@ -18,6 +18,16 @@ export default function Footer() {
             <li><Link href="/services" className="hover:text-gold">Services</Link></li>
             <li><Link href="/about" className="hover:text-gold">About</Link></li>
             <li><Link href="/contact" className="hover:text-gold">Contact</Link></li>
+            <li>
+              <a
+                href="/SOTA-Advisory-One-Pager.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gold"
+              >
+                One-Pager (PDF)
+              </a>
+            </li>
           </ul>
         </div>
         <div>
