@@ -21,6 +21,16 @@ export default function AboutPage() {
           shipping AI-driven products at the scale most growth-stage startups
           aspire to.
         </p>
+        <div className="mt-8">
+          <a
+            href="/SOTA-Advisory-One-Pager.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-5 py-2.5 border border-gold text-gold text-xs tracking-display hover:bg-gold hover:text-background transition-colors"
+          >
+            ↓ DOWNLOAD ONE-PAGER (PDF)
+          </a>
+        </div>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-20 grid gap-12 md:grid-cols-[1fr_2fr]">
