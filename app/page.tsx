@@ -52,12 +52,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 py-16 md:py-20">
           <div className="gold-divider mb-10 max-w-[120px]" />
           <blockquote className="font-serif text-2xl md:text-3xl leading-relaxed text-foreground/95">
-            &ldquo;Twenty years of shipping software. I take on scoped custom
-            builds personally, from architecture to production, for operators
-            who need the platform to just work. I&apos;ve shipped AI-driven
-            products at $100M+ ARR scale inside Block, Slack, and Quantcast,
-            and I bring that operator&apos;s playbook to leaders who need an
-            AI strategy the board will actually trust.&rdquo;
+            &ldquo;Most fractional CTOs hand you a slide deck. I bring 20 years
+            of engineering experience to executive teams navigating the AI
+            landscape. Having shipped software at scale for Slack and
+            Quantcast, and built AI-driven products past $100M+ ARR at Block,
+            I design AI strategies grounded in reality. When the roadmap is
+            set, I step in hands-on to architect and ship the custom
+            builds.&rdquo;
           </blockquote>
           <div className="mt-8 text-sm tracking-display text-gold">
             AANCHAL JAIN · FOUNDER
