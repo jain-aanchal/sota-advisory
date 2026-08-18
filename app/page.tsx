@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { services } from "@/lib/services";
+import { testimonials } from "@/lib/testimonials";
 import SectionHeader from "@/components/SectionHeader";
 
 export default function Home() {
@@ -46,19 +47,61 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quote / Positioning */}
+      {/* Positioning quote */}
       <section className="border-y border-border/60 bg-foreground/[0.02]">
         <div className="max-w-4xl mx-auto px-6 py-16 md:py-20">
           <div className="gold-divider mb-10 max-w-[120px]" />
           <blockquote className="font-serif text-2xl md:text-3xl leading-relaxed text-foreground/95">
-            “Most fractional CTOs hand you a slide deck. I&apos;ve shipped
-            AI-driven products at $100M+ ARR scale inside Block, Slack, and
-            Quantcast, and I bring that operator&apos;s playbook to leaders
-            who need an AI strategy the board will actually trust.”
+            &ldquo;Most fractional CTOs hand you a slide deck. I bring 20 years
+            of engineering experience to executive teams navigating the AI
+            landscape. Having shipped software at scale for Slack and
+            Quantcast, and built AI-driven products past $100M+ ARR at Block,
+            I design AI strategies grounded in reality. When the roadmap is
+            set, I step in hands-on to architect and ship the custom
+            builds.&rdquo;
           </blockquote>
           <div className="mt-8 text-sm tracking-display text-gold">
             AANCHAL JAIN · FOUNDER
           </div>
+        </div>
+      </section>
+
+      {/* AI-first / observability */}
+      <section className="max-w-6xl mx-auto px-6 py-20">
+        <SectionHeader
+          eyebrow="OUR APPROACH"
+          title="AI-first. Observability before you build."
+          subtitle="Most teams ship AI features and then wonder what happened. We flip the order: instrument first, so every model, agent, and prompt has metrics, evals, and a unit-cost attached from day one."
+        />
+        <div className="mt-12 grid gap-8 md:grid-cols-3">
+          {[
+            {
+              step: "01",
+              title: "Instrument",
+              body:
+                "Metrics, evals, dashboards, and per-feature token accounting go in before a single production prompt ships.",
+            },
+            {
+              step: "02",
+              title: "Prioritize",
+              body:
+                "AI bets ranked by ROI, gross-margin impact, and evidence, so table stakes and needle-movers don&rsquo;t get confused.",
+            },
+            {
+              step: "03",
+              title: "Ship & Contain",
+              body:
+                "Model routing, caching, guardrails, and budget alerts turn AI from experimental burn into a predictable, high-margin cost line.",
+            },
+          ].map((s) => (
+            <div key={s.step} className="border border-border/60 p-8">
+              <div className="text-xs tracking-display text-gold mb-4">
+                ◆ {s.step}
+              </div>
+              <h3 className="font-serif text-xl mb-3">{s.title}</h3>
+              <p className="text-sm text-muted leading-relaxed">{s.body}</p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -68,8 +111,9 @@ export default function Home() {
           eyebrow="TRACK RECORD"
           title="Built and shipped at the scale you&rsquo;re aiming for."
         />
-        <div className="mt-12 grid gap-8 md:grid-cols-4">
+        <div className="mt-12 grid gap-8 md:grid-cols-3 lg:grid-cols-5">
           {[
+            { stat: "85%", label: "AI spend reduction for a recent fractional-CTO client" },
             { stat: "40%", label: "Lift in production-ready AI code generation at Block" },
             { stat: "$100M+", label: "ARR products managed across 4 revenue lines" },
             { stat: "50%", label: "Operational cost reduction at Quantcast" },
@@ -83,6 +127,41 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* Case study callout */}
+      <section className="max-w-6xl mx-auto px-6 py-12">
+        <Link
+          href="/case-study"
+          className="block border border-border/60 hover:border-gold/60 transition-colors p-8 md:p-12 group"
+        >
+          <div className="grid gap-8 md:grid-cols-[1fr_2fr] items-center">
+            <div>
+              <div className="text-xs tracking-display text-gold mb-3">
+                ◆ CASE STUDY
+              </div>
+              <div className="font-serif text-5xl md:text-6xl text-gold">
+                85%
+              </div>
+              <div className="text-xs tracking-display text-muted mt-2">
+                CLOUD SPEND REDUCTION · 10 WEEKS
+              </div>
+            </div>
+            <div>
+              <h3 className="font-serif text-2xl md:text-3xl group-hover:text-gold transition-colors">
+                Interim CTO turnaround at an early-stage healthtech startup.
+              </h3>
+              <p className="mt-4 text-sm text-muted leading-relaxed">
+                Remediated a Sev 0 GCP + Vertex AI cost spike, restructured the
+                engineering org, and handed the platform to the incoming
+                permanent leadership, all in 10 weeks.
+              </p>
+              <div className="mt-6 text-xs tracking-display text-gold">
+                READ THE FULL STORY →
+              </div>
+            </div>
+          </div>
+        </Link>
       </section>
 
       {/* Services preview */}
@@ -108,6 +187,41 @@ export default function Home() {
               <p className="text-sm text-muted leading-relaxed">{s.short}</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Testimonials preview */}
+      <section className="max-w-6xl mx-auto px-6 py-20">
+        <SectionHeader
+          eyebrow="TESTIMONIALS"
+          title="What founders and CEOs say."
+        />
+        <div className="mt-12 grid gap-8 md:grid-cols-2">
+          {testimonials.map((t) => (
+            <article
+              key={t.name}
+              className="border border-border/60 p-8 flex flex-col"
+            >
+              <blockquote className="font-serif text-lg leading-relaxed text-foreground/95 flex-1">
+                &ldquo;{t.quote.split(". ").slice(0, 2).join(". ")}.&rdquo;
+              </blockquote>
+              <div className="gold-divider my-6 max-w-[60px]" />
+              <div>
+                <div className="text-sm tracking-display text-gold">
+                  {t.name.toUpperCase()}
+                </div>
+                <div className="text-xs text-muted mt-1">{t.title}</div>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="mt-10 text-center">
+          <Link
+            href="/testimonials"
+            className="inline-flex items-center px-6 py-3 border border-border text-foreground text-xs tracking-display hover:border-gold hover:text-gold transition-colors"
+          >
+            READ FULL TESTIMONIALS
+          </Link>
         </div>
       </section>
 

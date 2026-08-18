@@ -4,6 +4,7 @@ import Logo from "./Logo";
 const links = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
+  { href: "/testimonials", label: "Testimonials" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -15,7 +16,7 @@ export default function Nav() {
         <Link href="/" aria-label="SOTA Advisory home">
           <Logo />
         </Link>
-        <nav className="flex items-center gap-8 text-sm">
+        <nav className="flex items-center gap-6 text-sm">
           {links.map((l) => (
             <Link
               key={l.href}
