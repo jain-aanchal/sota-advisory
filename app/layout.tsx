@@ -155,6 +155,12 @@ export default function RootLayout({
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
+        {/* Cloudflare Web Analytics: cookie-free, aggregate pageviews only */}
+        <script
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "bdd6df8543c1412c95ba0b6d0e08bd46"}'
+        />
       </body>
     </html>
   );
