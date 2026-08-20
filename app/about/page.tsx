@@ -113,8 +113,10 @@ export default function AboutPage() {
             phones and three patents.
           </p>
           <p>
-            At <span className="text-gold">Slack</span>, she led product for
-            Slack Connect, security and compliance included.
+            At <span className="text-gold">Slack</span>, she managed
+            messaging features like scheduled messages and in-app audio,
+            and directed the technical vision and strategy for Slack
+            Connect.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
           <p className="text-lg">
