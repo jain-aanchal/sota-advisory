@@ -100,21 +100,21 @@ export default function AboutPage() {
             system that came out of it.
           </p>
           <p>
+            At <span className="text-gold">Block (Square)</span>, AI-driven
+            developer workflows lifted production-ready code generation 40%.
+          </p>
+          <p>
+            At <span className="text-gold">Slack</span>, she led product for
+            Slack Connect, security and compliance included.
+          </p>
+          <p>
             At <span className="text-gold">Quantcast</span>, legacy
             infrastructure became self-service platforms and operational
             costs dropped 50%.
           </p>
           <p>
-            At <span className="text-gold">Block (Square)</span>, AI-driven
-            developer workflows lifted production-ready code generation 40%.
-          </p>
-          <p>
             At <span className="text-gold">Razer</span>, three Android
             phones and three patents.
-          </p>
-          <p>
-            At <span className="text-gold">Slack</span>, she led product for
-            Slack Connect, security and compliance included.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
           <p className="text-lg">
