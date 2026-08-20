@@ -94,10 +94,9 @@ export default function AboutPage() {
             don&apos;t.
           </p>
           <p>
-            At <span className="text-gold">Double Blind Bio</span>, that
-            meant tearing into the AI architecture of a clinical trials
-            startup and cutting token costs 85%+, with a patent on the
-            system that came out of it.
+            At <span className="text-gold">Double Blind Bio</span>, a
+            clinical trials startup, she rearchitected the AI stack, cut
+            token cost by 85%, and filed a patent on the resulting system.
           </p>
           <p>
             At <span className="text-gold">Quantcast</span>, legacy
@@ -106,15 +105,18 @@ export default function AboutPage() {
           </p>
           <p>
             At <span className="text-gold">Block (Square)</span>, AI-driven
-            developer workflows lifted production-ready code generation 40%.
+            developer workflows lifted production-ready code generation by
+            40%.
           </p>
           <p>
             At <span className="text-gold">Razer</span>, three Android
             phones and three patents.
           </p>
           <p>
-            At <span className="text-gold">Slack</span>, she led product for
-            Slack Connect, security and compliance included.
+            At <span className="text-gold">Slack</span>, she managed
+            messaging features like scheduled messages and in-app audio,
+            and directed the technical vision and strategy for Slack
+            Connect.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
           <p className="text-lg">
