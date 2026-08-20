@@ -17,7 +17,7 @@ export default function Home() {
         />
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-24 md:pt-28 md:pb-32">
           <div className="text-xs tracking-display text-gold mb-6">
-            FRACTIONAL CTO · AI STRATEGY FOR GROWTH-STAGE STARTUPS
+            FRACTIONAL CTO · STRATEGY THAT SHIPS
           </div>
           <h1 className="font-serif text-4xl md:text-6xl leading-tight max-w-4xl">
             Operator-grade technology leadership.{" "}
@@ -51,12 +51,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 py-16 md:py-20">
           <div className="gold-divider mb-10 max-w-[120px]" />
           <blockquote className="font-serif text-2xl md:text-3xl leading-relaxed text-foreground/95">
-            &ldquo;Most fractional CTOs hand you a slide deck and leave the
-            execution to your team. I&apos;ve shipped software at scale for
-            Slack and Quantcast, and built AI products past $100M+ ARR at
-            Block. I design AI strategy grounded in what actually ships, then
-            I build it myself, so nothing gets lost between the roadmap and
-            the codebase.&rdquo;
+            &ldquo;Twenty years turning technical strategy into working
+            software. The person who designs your architecture is the person
+            who ships it, so nothing gets lost in the handoff.&rdquo;
           </blockquote>
           <div className="mt-8 text-sm tracking-display text-gold">
             AANCHAL JAIN · FOUNDER
@@ -69,7 +66,7 @@ export default function Home() {
         <SectionHeader
           eyebrow="APPROACH"
           title="AI-first. Observability before you build."
-          subtitle="Most teams ship AI features and then wonder what happened. I flip the order: instrument first, so every model, agent, and prompt has metrics, evals, and a unit-cost attached from day one."
+          subtitle="Most teams push AI features into production and then wonder what happened. I flip the order: instrument first, so every model, agent, and prompt has metrics, evals, and a unit-cost attached from day one."
         />
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {[
@@ -77,7 +74,7 @@ export default function Home() {
               step: "01",
               title: "Instrument",
               body:
-                "Metrics, evals, dashboards, and per-feature token accounting go in before a single production prompt ships.",
+                "Metrics, evals, dashboards, and per-feature token accounting go in before a single production prompt goes live.",
             },
             {
               step: "02",
@@ -111,7 +108,7 @@ export default function Home() {
         />
         <div className="mt-12 grid gap-8 md:grid-cols-3 lg:grid-cols-5">
           {[
-            { stat: "85%", label: "AI spend reduction for a recent Interim CTO client (see case study)" },
+            { stat: "85%", label: "AI spend reduction at Double Blind Bio (see case study)" },
             { stat: "40%", label: "Lift in production-ready AI code generation at Block" },
             { stat: "$100M+", label: "ARR products managed across 4 revenue lines" },
             { stat: "50%", label: "Operational cost reduction at Quantcast" },
@@ -147,13 +144,13 @@ export default function Home() {
             </div>
             <div>
               <h3 className="font-serif text-2xl md:text-3xl group-hover:text-gold transition-colors">
-                10-week Interim CTO turnaround at an early-stage healthtech
-                startup.
+                10-week Interim CTO turnaround at Double Blind Bio.
               </h3>
               <p className="mt-4 text-base text-muted leading-relaxed">
-                Remediated a Sev 0 GCP + Vertex AI cost spike, restructured the
-                engineering org, and handed the platform to the incoming
-                permanent leadership, all in 10 weeks.
+                Remediated a Sev 0 GCP + Vertex AI cost spike, restructured
+                the engineering org, and handed the platform to the incoming
+                permanent leadership, all in 10 weeks. The resulting AI
+                architecture is the subject of a patent.
               </p>
               <div className="mt-6 text-xs tracking-display text-gold">
                 READ THE FULL STORY →
@@ -167,7 +164,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <SectionHeader
           eyebrow="PROBLEMS I SOLVE"
-          title="Six pillars of advisory."
+          title="Five pillars of advisory."
           subtitle="Each engagement is scoped to your stage, your team, and the decisions in front of you."
         />
         <div className="mt-12 grid gap-px bg-border/60 border border-border/60 md:grid-cols-2 lg:grid-cols-3">

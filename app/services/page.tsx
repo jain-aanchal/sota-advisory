@@ -54,10 +54,9 @@ export default function ServicesPage() {
         />
         <ul className="mt-10 grid gap-4 md:grid-cols-2">
           {[
-            "Which AI initiatives will move the needle on our gross margins, and which are just parity plays?",
-            "How do we move our AI unit economics from experimental burn to a predictable, high-margin cost line?",
-            "How do we scale from 5 to 50 engineers without losing the founder-speed that keeps our CAC low?",
-            "Where is unbilled value hiding in our tech stack that could become a high-margin revenue stream?",
+            "When does it make sense to redesign our architecture vs. live with the technical debt for now?",
+            "How do I replace an aging ERP without a two-year rebuild, and without breaking the operation while we do it?",
+            "Where does AI genuinely help in logistics and documentation workflows, and where does it introduce risk we can't accept?",
           ].map((q) => (
             <li
               key={q}

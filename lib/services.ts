@@ -7,45 +7,38 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    slug: "ai-strategy-observability",
-    title: "AI Strategy, Observability-First",
-    short:
-      "Measure before you build. I instrument model performance, token spend, and user outcomes so every AI bet is grounded in data, not vibes.",
-    long: "Observability-first AI means you never ship a model, agent, or workflow you can't explain to the board. I stand up the metrics, evals, and dashboards first, then map the AI surface area of your business, prioritize bets by ROI and feasibility, and produce a board-ready strategy your team can actually ship against.",
-  },
-  {
-    slug: "ai-cost-unit-economics",
-    title: "AI Cost & Unit Economics",
-    short:
-      "Move AI from experimental burn to a predictable, high-margin cost structure. Recent engagement: 85% AI spend reduction in weeks.",
-    long: "I audit inference and token spend end-to-end: model routing, prompt hygiene, caching, batching, and vendor mix. Then I put controls in place, monitored budgets, per-feature unit costs, and margin-aware guardrails, so AI stays a lever, not a leak.",
-  },
-  {
-    slug: "custom-ai-builds",
-    title: "Custom AI Builds",
-    short:
-      "Scoped builds, from architecture to production, that I take on personally so nothing gets lost between the roadmap and the codebase.",
-    long: "Best when the roadmap has one critical technical bet that will define the next quarter (an agent, a migration, a platform rewrite), and handing it to an agency isn't an option. Scoped tightly, shipped in weeks not quarters, and handed off as a codebase your team can maintain.",
-  },
-  {
     slug: "interim-cto",
-    title: "Fractional & Interim CTO Leadership",
+    title: "Interim CTO Leadership",
     short:
-      "Full technical ownership during a transition, or an ongoing fractional partner for founders who need depth without a full-time hire.",
-    long: "Full technical ownership: hiring, standups, architecture reviews, board updates, customer conversations. I step in during CTO gaps or partner long-term with founders who need a strategic technology leader without the full-time commitment.",
+      "I step in during transitions and keep engineering moving, so you can run the search for your permanent technical leader without losing a quarter.",
+    long: "Hiring, standups, architecture reviews, board updates, customer conversations. Best when the CTO seat is vacant, the roadmap can't wait, and momentum is worth more than a shortcut.",
   },
   {
-    slug: "engineering-org-design",
-    title: "Engineering Organization Design",
+    slug: "ai-technology-strategy",
+    title: "AI & Technology Strategy",
     short:
-      "Teams, hiring plans, and operating cadences that scale from 5 to 50 engineers without losing founder-speed.",
-    long: "Org charts, leveling, hiring sequences, performance frameworks, and cross-functional operating cadences. The goal: a durable engineering organization that keeps shipping as it grows.",
+      "I find the two or three places where AI actually changes your unit economics, then build the roadmap around those. Everything else waits.",
+    long: "Best when you have a growing pile of AI bets and can't tell which two matter. I map the surface area, score by margin impact and feasibility, and produce a board-ready strategy that names what to build and what to kill.",
   },
   {
-    slug: "architecture-diligence",
-    title: "Architecture & Technical Due Diligence",
+    slug: "ai-cost-reduction",
+    title: "AI Cost Reduction",
     short:
-      "Platform reviews, scalability roadmaps, and independent diligence for investors and boards before major decisions.",
-    long: "Architecture reviews and pragmatic refactor plans that balance velocity today with the room you'll need to scale next year. For investors and boards: independent diligence covering code quality, infrastructure, security posture, team strength, and AI readiness.",
+      "I rearchitect AI infrastructure with embedded evals and observability, so you can see what every call costs before you decide what to cut. Most teams are paying for tokens they can't account for.",
+    long: "Model routing, prompt hygiene, caching, batching, and vendor mix. Recent engagement: 85% AI spend reduction in weeks, with the resulting architecture the subject of a patent.",
+  },
+  {
+    slug: "where-ai-runs",
+    title: "Where AI Runs and Where It Doesn't",
+    short:
+      "I put AI on your screens, parsing, and workflows, and keep financial, margin, and pricing logic deterministic. A wrong number costs more than the AI ever saves.",
+    long: "Best when AI has crept into places it shouldn't be (billing, pricing, quotes, compliance) and the risk is starting to feel real. I draw the line between what AI does well and what has to stay deterministic, and I redesign accordingly.",
+  },
+  {
+    slug: "technical-due-diligence",
+    title: "Technical Due Diligence",
+    short:
+      "I tell you what's true about the engineering, the people, and the risk before you acquire, invest, or bet the roadmap.",
+    long: "For boards, investors, and acquirers. Independent read on code quality, infrastructure, security posture, team strength, and AI readiness. Delivered as a document your finance and legal teams can act on.",
   },
 ];
