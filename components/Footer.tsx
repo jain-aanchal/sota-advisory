@@ -16,6 +16,7 @@ export default function Footer() {
           <h3 className="text-xs tracking-display text-gold mb-4">EXPLORE</h3>
           <ul className="space-y-2 text-base">
             <li><Link href="/services" className="hover:text-gold">Services</Link></li>
+            <li><Link href="/case-study" className="hover:text-gold">Case Study</Link></li>
             <li><Link href="/testimonials" className="hover:text-gold">Testimonials</Link></li>
             <li><Link href="/about" className="hover:text-gold">About</Link></li>
             <li><Link href="/contact" className="hover:text-gold">Contact</Link></li>
