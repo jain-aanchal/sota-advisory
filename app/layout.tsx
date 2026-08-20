@@ -88,6 +88,26 @@ const personLd = {
   image: `${SITE_URL}/aanchal.jpg`,
   email: "mailto:aanchal@sotaadvisory.com",
   sameAs: ["https://linkedin.com/in/aanchaljain16"],
+  description:
+    "Founder of SOTA Advisory. 20+ years of engineering leadership at Block, Slack, Quantcast, and Razer. Recent engagement: 85% AI spend reduction and 10x developer velocity improvement at Double Blind Bio as Interim CTO. Holds 4 patents spanning mobile software and AI infrastructure.",
+  knowsAbout: [
+    "Fractional CTO",
+    "Interim CTO leadership",
+    "AI strategy",
+    "AI agents",
+    "AI cost reduction",
+    "Cloud and AI cost optimization",
+    "AI infrastructure",
+    "AI observability",
+    "Technical due diligence",
+    "Engineering organization design",
+    "Developer velocity",
+    "Spec-driven development",
+  ],
+  award: [
+    "Patent on AI infrastructure architecture (Double Blind Bio)",
+    "3 patents in mobile software innovation (Razer)",
+  ],
   worksFor: {
     "@type": "Organization",
     name: "SOTA Advisory",
@@ -99,14 +119,6 @@ const personLd = {
     { "@type": "Organization", name: "Quantcast" },
     { "@type": "Organization", name: "Razer" },
   ],
-  knowsAbout: [
-    "AI strategy",
-    "Interim CTO leadership",
-    "AI cost optimization",
-    "Technical due diligence",
-    "Engineering organization design",
-    "Observability",
-  ],
 };
 
 const organizationLd = {
@@ -116,7 +128,9 @@ const organizationLd = {
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
   image: `${SITE_URL}/logo.png`,
-  description: DESCRIPTION,
+  description:
+    "SOTA Advisory provides fractional and interim CTO leadership, AI strategy, cloud and AI cost optimization, AI agent architecture, and technical due diligence for growth-stage startups. Recent engagement delivered 85% AI spend reduction and 10x developer velocity at Double Blind Bio.",
+  slogan: "Strategy that ships",
   email: "aanchal@sotaadvisory.com",
   areaServed: "Worldwide",
   founder: {
@@ -127,9 +141,12 @@ const organizationLd = {
   sameAs: ["https://linkedin.com/in/aanchaljain16"],
   serviceType: [
     "Fractional CTO",
-    "Interim CTO",
+    "Interim CTO Leadership",
     "AI Strategy",
     "AI Cost Reduction",
+    "Cloud and AI Cost Optimization",
+    "AI Agent Architecture",
+    "AI Observability",
     "Technical Due Diligence",
     "Engineering Organization Design",
   ],
