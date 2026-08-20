@@ -99,24 +99,24 @@ export default function AboutPage() {
             token cost by 85%, and filed a patent on the resulting system.
           </p>
           <p>
-            At <span className="text-gold">Quantcast</span>, legacy
-            infrastructure became self-service platforms and operational
-            costs dropped 50%.
-          </p>
-          <p>
             At <span className="text-gold">Block (Square)</span>, AI-driven
             developer workflows lifted production-ready code generation by
             40%.
-          </p>
-          <p>
-            At <span className="text-gold">Razer</span>, three Android
-            phones and three patents.
           </p>
           <p>
             At <span className="text-gold">Slack</span>, she managed
             messaging features like scheduled messages and in-app audio,
             and directed the technical vision and strategy for Slack
             Connect.
+          </p>
+          <p>
+            At <span className="text-gold">Quantcast</span>, legacy
+            infrastructure became self-service platforms and operational
+            costs dropped 50%.
+          </p>
+          <p>
+            At <span className="text-gold">Razer</span>, three Android
+            phones and three patents.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
           <p className="text-lg">
