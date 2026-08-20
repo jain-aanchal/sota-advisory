@@ -3,9 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About | SOTA Advisory",
+  title: "About",
   description:
     "Aanchal Jain is the founder of SOTA Advisory. A fractional CTO with 20+ years of engineering leadership at Block, Slack, Quantcast, and Razer.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About | SOTA Advisory",
+    description:
+      "Aanchal Jain, Founder of SOTA Advisory. Twenty years turning technical strategy into working software.",
+    url: "/about",
+  },
 };
 
 export default function AboutPage() {

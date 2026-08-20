@@ -4,9 +4,16 @@ import { services } from "@/lib/services";
 import SectionHeader from "@/components/SectionHeader";
 
 export const metadata: Metadata = {
-  title: "Services | SOTA Advisory",
+  title: "Services",
   description:
-    "AI strategy, fractional CTO, technical due diligence, and architecture advisory for growth-stage startups.",
+    "Interim CTO leadership, AI strategy, AI cost reduction, technical due diligence, and engineering organization design for growth-stage startups.",
+  alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Services | SOTA Advisory",
+    description:
+      "Interim CTO leadership, AI strategy, AI cost reduction, technical due diligence, and engineering organization design.",
+    url: "/services",
+  },
 };
 
 export default function ServicesPage() {

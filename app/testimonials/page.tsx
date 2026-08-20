@@ -3,9 +3,16 @@ import Link from "next/link";
 import { testimonials } from "@/lib/testimonials";
 
 export const metadata: Metadata = {
-  title: "Testimonials | SOTA Advisory",
+  title: "Testimonials",
   description:
     "What founders and CEOs say about working with Aanchal Jain and SOTA Advisory as fractional CTO.",
+  alternates: { canonical: "/testimonials" },
+  openGraph: {
+    title: "Testimonials | SOTA Advisory",
+    description:
+      "What founders and CEOs say about working with Aanchal Jain as fractional CTO.",
+    url: "/testimonials",
+  },
 };
 
 export default function TestimonialsPage() {

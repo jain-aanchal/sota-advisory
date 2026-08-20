@@ -2,9 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Case Study | SOTA Advisory",
+  title: "Case Study",
   description:
     "10-week Interim CTO engagement at Double Blind Bio, an early-stage healthtech startup: 85% cloud cost reduction, engineering restructuring, and executive handover.",
+  alternates: { canonical: "/case-study" },
+  openGraph: {
+    title: "Case Study | SOTA Advisory",
+    description:
+      "10-week Interim CTO turnaround at Double Blind Bio: 85% AI spend reduction, 10x developer velocity, and a patent on the resulting architecture.",
+    url: "/case-study",
+    type: "article",
+  },
 };
 
 const highlights = [
