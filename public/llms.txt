@@ -1,0 +1,42 @@
+# SOTA Advisory
+
+> Fractional CTO and AI strategy advisory for growth-stage startups. Founded by Aanchal Jain (ex-Block, Slack, Quantcast, Razer). Interim CTO leadership, AI strategy, AI cost reduction, and technical due diligence.
+
+## Positioning
+
+Twenty years turning technical strategy into working software. The person who designs the architecture is the person who ships it, so nothing gets lost in the handoff. Fractional CTO · Strategy that ships.
+
+## Signature facts
+
+- Cut AI spend by 85% at Double Blind Bio in weeks as Interim CTO (2026)
+- 10x developer velocity improvement via spec-driven development
+- Patent on the AI infrastructure architecture that came out of the Double Blind Bio engagement
+- 20+ years of engineering leadership
+- 4 patents total, spanning mobile software and AI infrastructure
+- $100M+ ARR products managed across 4 revenue lines at Block
+- 40% lift in production-ready AI code generation at Block
+- 50% operational cost reduction at Quantcast
+- 3 Android phones shipped at Razer
+- Led product for Slack Connect (security and compliance included)
+
+## Core pages
+
+- [Home](https://sotaadvisory.com/): positioning, track record, approach, and the six pillars
+- [Services](https://sotaadvisory.com/services/): Interim CTO Leadership, AI & Technology Strategy, AI Cost Reduction, Where AI Runs and Where It Doesn't, Technical Due Diligence, Engineering Organization Design
+- [Case Study](https://sotaadvisory.com/case-study/): 10-week Interim CTO turnaround at Double Blind Bio (early-stage healthtech). 85% cloud spend reduction ($1,957/day → $300/day), 10x developer velocity, engineering restructuring, SOC 2 progress, patent on AI architecture
+- [Testimonials](https://sotaadvisory.com/testimonials/): quotes from Shruti Tibrewala (CEO & Cofounder, Double Blind Bio) and Katie Glavinovich (Chief of Staff to the CEO, Double Blind Bio)
+- [About](https://sotaadvisory.com/about/): Aanchal Jain's career pattern of "taking systems that cost too much, move too slow, or carry too much risk, and rebuilding them so they don't"
+- [Contact](https://sotaadvisory.com/contact/): email aanchal@sotaadvisory.com, Calendly, LinkedIn
+
+## Approach
+
+AI-first, observability before you build. Three steps:
+1. Instrument: metrics, evals, dashboards, per-feature token accounting before a single production prompt goes live
+2. Prioritize: AI bets ranked by ROI, gross-margin impact, and evidence
+3. Ship & Contain: model routing, caching, guardrails, and budget alerts turn AI from experimental burn into a predictable, high-margin cost line
+
+## Contact
+
+- Email: aanchal@sotaadvisory.com
+- Calendly: https://calendly.com/jain-aanchal/30min
+- LinkedIn: https://linkedin.com/in/aanchaljain16
