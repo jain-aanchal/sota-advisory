@@ -105,7 +105,8 @@ export default function AboutPage() {
           </p>
           <p>
             At <span className="text-gold">Block (Square)</span>, AI-driven
-            developer workflows lifted production-ready code generation 40%.
+            developer workflows lifted production-ready code generation by
+            40%.
           </p>
           <p>
             At <span className="text-gold">Razer</span>, three Android
