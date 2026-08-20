@@ -21,7 +21,7 @@ const workstreams = [
   },
   {
     title: "Engineering Leadership & Culture",
-    body: "Restructured the engineering organization by implementing rigorous sprint disciplines, PagerDuty on-call rotations, and blameless post-mortems. Established clear career pathing and KPI frameworks, and improved developer velocity by 10x through spec-driven development.",
+    body: "Rebuilt the engineering org around sprint discipline, on-call rotation, and blameless post-mortems, then moved the team to spec-driven development. Developer velocity: up 10x.",
   },
   {
     title: "Architecture & Product Delivery",

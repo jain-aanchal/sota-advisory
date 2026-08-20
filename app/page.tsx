@@ -24,9 +24,8 @@ export default function Home() {
             <span className="text-gold">When you need it most.</span>
           </h1>
           <p className="mt-8 text-lg text-muted max-w-2xl leading-relaxed">
-            SOTA Advisory partners with founders and CEOs to translate AI and
-            technology bets into outcomes the market and the boardroom can
-            measure.
+            I partner with founders and CEOs to turn AI and technology bets
+            into outcomes the market and the boardroom can measure.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
@@ -52,13 +51,12 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 py-16 md:py-20">
           <div className="gold-divider mb-10 max-w-[120px]" />
           <blockquote className="font-serif text-2xl md:text-3xl leading-relaxed text-foreground/95">
-            &ldquo;Most fractional CTOs hand you a slide deck. I bring 20 years
-            of engineering experience to executive teams navigating the AI
-            landscape. Having shipped software at scale for Slack and
-            Quantcast, and built AI-driven products past $100M+ ARR at Block,
-            I design AI strategies grounded in reality. When the roadmap is
-            set, I step in hands-on to architect and ship the custom
-            builds.&rdquo;
+            &ldquo;Most fractional CTOs hand you a slide deck and leave the
+            execution to your team. I&apos;ve shipped software at scale for
+            Slack and Quantcast, and built AI products past $100M+ ARR at
+            Block. I design AI strategy grounded in what actually ships, then
+            I build it myself, so nothing gets lost between the roadmap and
+            the codebase.&rdquo;
           </blockquote>
           <div className="mt-8 text-sm tracking-display text-gold">
             AANCHAL JAIN · FOUNDER
@@ -69,9 +67,9 @@ export default function Home() {
       {/* AI-first / observability */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <SectionHeader
-          eyebrow="OUR APPROACH"
+          eyebrow="APPROACH"
           title="AI-first. Observability before you build."
-          subtitle="Most teams ship AI features and then wonder what happened. We flip the order: instrument first, so every model, agent, and prompt has metrics, evals, and a unit-cost attached from day one."
+          subtitle="Most teams ship AI features and then wonder what happened. I flip the order: instrument first, so every model, agent, and prompt has metrics, evals, and a unit-cost attached from day one."
         />
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {[
@@ -167,7 +165,7 @@ export default function Home() {
       {/* Services preview */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <SectionHeader
-          eyebrow="THE PROBLEMS WE SOLVE"
+          eyebrow="PROBLEMS I SOLVE"
           title="Six pillars of advisory."
           subtitle="Each engagement is scoped to your stage, your team, and the decisions in front of you."
         />
