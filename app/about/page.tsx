@@ -94,26 +94,20 @@ export default function AboutPage() {
             don&apos;t.
           </p>
           <p>
-            At <span className="text-gold">Double Blind Bio</span>, that
-            meant tearing into the AI architecture of a clinical trials
-            startup and cutting token costs 85%+, with a patent on the
-            system that came out of it.
+            Most recently, at{" "}
+            <span className="text-gold">Double Blind Bio</span>, she tore
+            into a clinical trials startup&apos;s AI architecture, cut token
+            costs 85%+, and filed a patent on the resulting system. At{" "}
+            <span className="text-gold">Quantcast</span>, she rebuilt legacy
+            infrastructure as self-service platforms and dropped operational
+            costs 50%. At <span className="text-gold">Block (Square)</span>,
+            she drove AI-driven developer workflows that lifted
+            production-ready code generation 40% across $100M+ ARR products.
           </p>
           <p>
-            At <span className="text-gold">Quantcast</span>, legacy
-            infrastructure became self-service platforms and operational
-            costs dropped 50%.
-          </p>
-          <p>
-            At <span className="text-gold">Block (Square)</span>, AI-driven
-            developer workflows lifted production-ready code generation 40%.
-          </p>
-          <p>
-            At <span className="text-gold">Razer</span>, three Android
-            phones and three patents.
-          </p>
-          <p>
-            At <span className="text-gold">Slack</span>, she led product for
+            Earlier, at <span className="text-gold">Razer</span>, three
+            Android phones shipped and three patents filed. And at{" "}
+            <span className="text-gold">Slack</span>, product leadership for
             Slack Connect, security and compliance included.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
