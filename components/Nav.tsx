@@ -2,8 +2,8 @@ import Link from "next/link";
 import Logo from "./Logo";
 
 const links = [
-  { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
+  { href: "/case-study", label: "Case Study" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
@@ -16,7 +16,7 @@ export default function Nav() {
         <Link href="/" aria-label="SOTA Advisory home">
           <Logo />
         </Link>
-        <nav className="flex items-center gap-6 text-sm">
+        <nav className="flex items-center gap-6 text-base">
           {links.map((l) => (
             <Link
               key={l.href}

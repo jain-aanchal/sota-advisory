@@ -19,8 +19,8 @@ export default function TestimonialsPage() {
           What founders and CEOs say.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
-          Straight from the leaders SOTA Advisory has partnered with, on the
-          impact of hands-on fractional CTO leadership.
+          Straight from the leaders I&apos;ve partnered with, on what happens
+          when the person setting AI strategy is also the person shipping it.
         </p>
       </section>
 
@@ -42,9 +42,9 @@ export default function TestimonialsPage() {
                 <div className="text-sm tracking-display text-gold">
                   {t.name.toUpperCase()}
                 </div>
-                <div className="text-sm text-muted mt-1">{t.title}</div>
+                <div className="text-base text-muted mt-1">{t.title}</div>
               </div>
-              <div className="text-xs text-muted">{t.date}</div>
+              <div className="text-sm text-muted">{t.date}</div>
             </div>
           </article>
         ))}

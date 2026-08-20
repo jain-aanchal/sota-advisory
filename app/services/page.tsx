@@ -50,7 +50,7 @@ export default function ServicesPage() {
       <section className="max-w-6xl mx-auto px-6 pb-24">
         <SectionHeader
           eyebrow="QUESTIONS TO ASK ME"
-          title="If any of these are on your mind, we should talk."
+          title="If any of these are on your mind, let&rsquo;s talk."
         />
         <ul className="mt-10 grid gap-4 md:grid-cols-2">
           {[
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           ].map((q) => (
             <li
               key={q}
-              className="border border-border/60 p-6 text-sm leading-relaxed flex gap-3"
+              className="border border-border/60 p-6 text-base leading-relaxed flex gap-3"
             >
               <span className="text-gold">◆</span>
               <span>{q}</span>

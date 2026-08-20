@@ -21,7 +21,7 @@ const workstreams = [
   },
   {
     title: "Engineering Leadership & Culture",
-    body: "Restructured the engineering organization by implementing rigorous sprint disciplines, PagerDuty on-call rotations, and blameless post-mortems. Established clear career pathing and KPI frameworks, and improved developer velocity by 10x through spec-driven development.",
+    body: "Rebuilt the engineering org around sprint discipline, on-call rotation, and blameless post-mortems, then moved the team to spec-driven development. Developer velocity: up 10x.",
   },
   {
     title: "Architecture & Product Delivery",
@@ -29,7 +29,7 @@ const workstreams = [
   },
   {
     title: "System Reliability & Data Pipelines",
-    body: "Designed a Unified Ingestion Pipeline to eliminate silent data failures and missing data. Redesigned the core architecture of the Agent AI with a specialized router to resolve hallucination, context loss, and timeout issues.",
+    body: "Silent data failures and agent hallucinations were driving a steady stream of support tickets and slowing every new integration. Consolidated ingestion into a single pipeline (fix once, propagates everywhere) and rebuilt the agent's router to eliminate context loss and timeouts. Result: support load down, and new integrations became straightforward instead of bespoke.",
   },
   {
     title: "Compliance",
@@ -52,11 +52,11 @@ export default function CaseStudyPage() {
           10-week technical turnaround at an early-stage healthtech startup.
         </h1>
         <p className="mt-6 text-muted max-w-3xl leading-relaxed">
-          As Interim CTO through SOTA Advisory, I led a 10-week technical
-          turnaround and organizational restructuring. The mandate: stabilize
-          infrastructure, optimize AI compute costs, and establish a
-          high-performing engineering culture before onboarding the permanent
-          executive leadership.
+          As Interim CTO, I led a 10-week technical turnaround and
+          organizational restructuring. The mandate: stabilize infrastructure,
+          optimize AI compute costs, and establish a high-performing
+          engineering culture before onboarding the permanent executive
+          leadership.
         </p>
       </section>
 
@@ -66,7 +66,7 @@ export default function CaseStudyPage() {
           {highlights.map((h) => (
             <div key={h.label} className="border-l border-gold/40 pl-5">
               <div className="font-serif text-3xl text-gold">{h.stat}</div>
-              <div className="mt-2 text-sm text-muted leading-relaxed">
+              <div className="mt-2 text-base text-muted leading-relaxed">
                 {h.label}
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function CaseStudyPage() {
                 ◆ {String(i + 1).padStart(2, "0")}
               </div>
               <h2 className="font-serif text-xl mb-3">{w.title}</h2>
-              <p className="text-sm text-muted leading-relaxed">{w.body}</p>
+              <p className="text-base text-muted leading-relaxed">{w.body}</p>
             </article>
           ))}
         </div>
