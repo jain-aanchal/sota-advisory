@@ -83,7 +83,7 @@ export default function Home() {
               step: "02",
               title: "Prioritize",
               body:
-                "AI bets ranked by ROI, gross-margin impact, and evidence, so table stakes and needle-movers don&rsquo;t get confused.",
+                "AI bets ranked by ROI, gross-margin impact, and evidence, so table stakes and needle-movers don’t get confused.",
             },
             {
               step: "03",
@@ -147,7 +147,8 @@ export default function Home() {
             </div>
             <div>
               <h3 className="font-serif text-2xl md:text-3xl group-hover:text-gold transition-colors">
-                Interim CTO turnaround at an early-stage healthtech startup.
+                10-week Interim CTO turnaround at an early-stage healthtech
+                startup.
               </h3>
               <p className="mt-4 text-base text-muted leading-relaxed">
                 Remediated a Sev 0 GCP + Vertex AI cost spike, restructured the

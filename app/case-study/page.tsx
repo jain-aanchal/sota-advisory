@@ -33,11 +33,11 @@ const workstreams = [
   },
   {
     title: "Compliance",
-    body: "Managed the technical efforts and documentation to advance ongoing SOC 2 compliance certification.",
+    body: "Drove the technical work and documentation to advance ongoing SOC 2 compliance certification.",
   },
   {
     title: "Executive Transition & Hiring",
-    body: "Managed the technical hiring pipeline and wrote a comprehensive strategy and plan to ensure a seamless leadership handover to the incoming permanent executive.",
+    body: "Ran the technical hiring pipeline and authored a comprehensive strategy for a seamless handover to the incoming permanent executive.",
   },
 ];
 
