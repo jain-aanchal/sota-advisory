@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | SOTA Advisory",
+  title: "Contact",
   description:
     "Get in touch with SOTA Advisory. Book a discovery call, send a note, or connect on LinkedIn.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact | SOTA Advisory",
+    description:
+      "Book a 30-minute discovery call with Aanchal Jain, or reach out by email or LinkedIn.",
+    url: "/contact",
+  },
 };
 
 const channels = [
