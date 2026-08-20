@@ -25,7 +25,7 @@ export const services: Service[] = [
     title: "Custom AI Builds",
     short:
       "Scoped builds, from architecture to production, that I take on personally so nothing gets lost between the roadmap and the codebase.",
-    long: "Twenty years of shipping software. I take on scoped custom builds personally, from architecture through production, for operators who need the platform to just work. Ideal when the roadmap has a critical technical bet and you'd rather not hand it to an agency.",
+    long: "Best when the roadmap has one critical technical bet that will define the next quarter (an agent, a migration, a platform rewrite), and handing it to an agency isn't an option. Scoped tightly, shipped in weeks not quarters, and handed off as a codebase your team can maintain.",
   },
   {
     slug: "interim-cto",
