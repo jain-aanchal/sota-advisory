@@ -14,7 +14,7 @@ export default async function OpengraphImage() {
           height: "630px",
           display: "flex",
           flexDirection: "column",
-          padding: "80px",
+          padding: "72px 80px",
           background:
             "radial-gradient(ellipse at top left, rgba(201,169,97,0.18), transparent 55%), radial-gradient(ellipse at bottom right, rgba(184,115,51,0.12), transparent 55%), #0a0a0a",
           color: "#f5f5f0",
@@ -25,7 +25,7 @@ export default async function OpengraphImage() {
         <div
           style={{
             display: "flex",
-            fontSize: 24,
+            fontSize: 22,
             letterSpacing: "0.28em",
             color: "#c9a961",
             fontFamily: "sans-serif",
@@ -34,26 +34,41 @@ export default async function OpengraphImage() {
           FRACTIONAL CTO · STRATEGY THAT SHIPS
         </div>
 
-        {/* Middle: hero, centered */}
+        {/* Middle: hero + subtitle, vertically centered */}
         <div
           style={{
             flex: 1,
             display: "flex",
-            alignItems: "center",
-            marginTop: 40,
+            flexDirection: "column",
+            justifyContent: "center",
+            gap: 28,
+            marginTop: 24,
           }}
         >
           <div
             style={{
               display: "flex",
-              fontSize: 76,
+              fontSize: 68,
               fontWeight: 400,
-              lineHeight: 1.12,
+              lineHeight: 1.1,
               letterSpacing: "-0.01em",
               maxWidth: "1040px",
             }}
           >
             Operator-grade technology leadership.
+          </div>
+          <div
+            style={{
+              display: "flex",
+              fontSize: 26,
+              lineHeight: 1.4,
+              color: "#c9c9c0",
+              maxWidth: "980px",
+              fontFamily: "sans-serif",
+            }}
+          >
+            I partner with founders and CEOs to turn AI and technology bets
+            into outcomes the market and the boardroom can measure.
           </div>
         </div>
 
@@ -63,7 +78,7 @@ export default async function OpengraphImage() {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "flex-end",
-            marginTop: 40,
+            marginTop: 24,
           }}
         >
           <div style={{ display: "flex", flexDirection: "column" }}>
@@ -71,7 +86,7 @@ export default async function OpengraphImage() {
               style={{
                 display: "flex",
                 color: "#c0c0c0",
-                fontSize: 48,
+                fontSize: 44,
                 letterSpacing: "0.28em",
                 lineHeight: 1,
               }}
@@ -83,7 +98,7 @@ export default async function OpengraphImage() {
                 display: "flex",
                 marginTop: 10,
                 color: "#c9a961",
-                fontSize: 16,
+                fontSize: 15,
                 letterSpacing: "0.34em",
                 fontFamily: "sans-serif",
               }}
