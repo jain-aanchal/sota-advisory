@@ -7,14 +7,14 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12 grid gap-10 md:grid-cols-3">
         <div>
           <LogoImage />
-          <p className="mt-4 text-sm text-muted max-w-xs">
+          <p className="mt-4 text-base text-muted max-w-xs">
             Operator-grade fractional CTO and AI strategy for growth-stage
             startups.
           </p>
         </div>
         <div>
           <h3 className="text-xs tracking-display text-gold mb-4">EXPLORE</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-base">
             <li><Link href="/services" className="hover:text-gold">Services</Link></li>
             <li><Link href="/testimonials" className="hover:text-gold">Testimonials</Link></li>
             <li><Link href="/about" className="hover:text-gold">About</Link></li>
@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
         <div>
           <h3 className="text-xs tracking-display text-gold mb-4">CONNECT</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-base">
             <li>
               <a href="mailto:aanchal@sotaadvisory.com" className="hover:text-gold">
                 aanchal@sotaadvisory.com
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-border/60">
-        <div className="max-w-6xl mx-auto px-6 py-6 text-xs text-muted flex flex-col sm:flex-row justify-between gap-2">
+        <div className="max-w-6xl mx-auto px-6 py-6 text-sm text-muted flex flex-col sm:flex-row justify-between gap-2">
           <span>© {new Date().getFullYear()} SOTA Advisory. All rights reserved.</span>
           <span>Founded by Aanchal Jain</span>
         </div>

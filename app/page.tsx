@@ -23,7 +23,7 @@ export default function Home() {
             Operator-grade technology leadership.{" "}
             <span className="text-gold">When you need it most.</span>
           </h1>
-          <p className="mt-8 text-lg text-muted max-w-2xl leading-relaxed">
+          <p className="mt-8 text-xl text-muted max-w-2xl leading-relaxed">
             I partner with founders and CEOs to turn AI and technology bets
             into outcomes the market and the boardroom can measure.
           </p>
@@ -97,7 +97,7 @@ export default function Home() {
                 ◆ {s.step}
               </div>
               <h3 className="font-serif text-xl mb-3">{s.title}</h3>
-              <p className="text-sm text-muted leading-relaxed">{s.body}</p>
+              <p className="text-base text-muted leading-relaxed">{s.body}</p>
             </div>
           ))}
         </div>
@@ -119,7 +119,7 @@ export default function Home() {
           ].map((m) => (
             <div key={m.label} className="border-l border-gold/40 pl-5">
               <div className="font-serif text-4xl text-gold">{m.stat}</div>
-              <div className="mt-2 text-sm text-muted leading-relaxed">
+              <div className="mt-2 text-base text-muted leading-relaxed">
                 {m.label}
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
               <h3 className="font-serif text-2xl md:text-3xl group-hover:text-gold transition-colors">
                 Interim CTO turnaround at an early-stage healthtech startup.
               </h3>
-              <p className="mt-4 text-sm text-muted leading-relaxed">
+              <p className="mt-4 text-base text-muted leading-relaxed">
                 Remediated a Sev 0 GCP + Vertex AI cost spike, restructured the
                 engineering org, and handed the platform to the incoming
                 permanent leadership, all in 10 weeks.
@@ -182,7 +182,7 @@ export default function Home() {
               <h3 className="font-serif text-xl mb-3 group-hover:text-gold transition-colors">
                 {s.title}
               </h3>
-              <p className="text-sm text-muted leading-relaxed">{s.short}</p>
+              <p className="text-base text-muted leading-relaxed">{s.short}</p>
             </Link>
           ))}
         </div>
@@ -208,7 +208,7 @@ export default function Home() {
                 <div className="text-sm tracking-display text-gold">
                   {t.name.toUpperCase()}
                 </div>
-                <div className="text-xs text-muted mt-1">{t.title}</div>
+                <div className="text-sm text-muted mt-1">{t.title}</div>
               </div>
             </article>
           ))}

@@ -42,9 +42,9 @@ export default function TestimonialsPage() {
                 <div className="text-sm tracking-display text-gold">
                   {t.name.toUpperCase()}
                 </div>
-                <div className="text-sm text-muted mt-1">{t.title}</div>
+                <div className="text-base text-muted mt-1">{t.title}</div>
               </div>
-              <div className="text-xs text-muted">{t.date}</div>
+              <div className="text-sm text-muted">{t.date}</div>
             </div>
           </article>
         ))}

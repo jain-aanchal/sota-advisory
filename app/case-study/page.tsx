@@ -66,7 +66,7 @@ export default function CaseStudyPage() {
           {highlights.map((h) => (
             <div key={h.label} className="border-l border-gold/40 pl-5">
               <div className="font-serif text-3xl text-gold">{h.stat}</div>
-              <div className="mt-2 text-sm text-muted leading-relaxed">
+              <div className="mt-2 text-base text-muted leading-relaxed">
                 {h.label}
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function CaseStudyPage() {
                 ◆ {String(i + 1).padStart(2, "0")}
               </div>
               <h2 className="font-serif text-xl mb-3">{w.title}</h2>
-              <p className="text-sm text-muted leading-relaxed">{w.body}</p>
+              <p className="text-base text-muted leading-relaxed">{w.body}</p>
             </article>
           ))}
         </div>

@@ -47,17 +47,17 @@ export default function AboutPage() {
           </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">ROLE</h3>
-            <p className="text-sm">Founder & Fractional CTO</p>
+            <p className="text-base">Founder & Fractional CTO</p>
           </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">FOCUS</h3>
-            <p className="text-sm">
+            <p className="text-base">
               AI strategy, engineering org design, technical due diligence
             </p>
           </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">PRIOR</h3>
-            <ul className="text-sm space-y-1">
+            <ul className="text-base space-y-1">
               <li>Block (Square)</li>
               <li>Slack</li>
               <li>Quantcast</li>
@@ -66,7 +66,7 @@ export default function AboutPage() {
           </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">PATENTS</h3>
-            <p className="text-sm">3 in mobile software innovation</p>
+            <p className="text-base">3 in mobile software innovation</p>
           </div>
         </aside>
 

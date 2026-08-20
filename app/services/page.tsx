@@ -63,7 +63,7 @@ export default function ServicesPage() {
           ].map((q) => (
             <li
               key={q}
-              className="border border-border/60 p-6 text-sm leading-relaxed flex gap-3"
+              className="border border-border/60 p-6 text-base leading-relaxed flex gap-3"
             >
               <span className="text-gold">◆</span>
               <span>{q}</span>
