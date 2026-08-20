@@ -29,7 +29,7 @@ const workstreams = [
   },
   {
     title: "System Reliability & Data Pipelines",
-    body: "Designed a Unified Ingestion Pipeline to eliminate silent data failures and missing data. Redesigned the core architecture of the Agent AI with a specialized router to resolve hallucination, context loss, and timeout issues.",
+    body: "Silent data failures and agent hallucinations were driving a steady stream of support tickets and slowing every new integration. Consolidated ingestion into a single pipeline (fix once, propagates everywhere) and rebuilt the agent's router to eliminate context loss and timeouts. Result: support load down, and new integrations became straightforward instead of bespoke.",
   },
   {
     title: "Compliance",
