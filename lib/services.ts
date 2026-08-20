@@ -24,7 +24,7 @@ export const services: Service[] = [
     slug: "custom-ai-builds",
     title: "Custom AI Builds",
     short:
-      "Scoped builds, from architecture to production, that I take on personally so nothing gets lost between your strategy and your shipped product.",
+      "Scoped builds, from architecture to production, that I take on personally so nothing gets lost between the roadmap and the codebase.",
     long: "Twenty years of shipping software. I take on scoped custom builds personally, from architecture through production, for operators who need the platform to just work. Ideal when the roadmap has a critical technical bet and you'd rather not hand it to an agency.",
   },
   {

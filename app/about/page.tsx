@@ -13,7 +13,7 @@ export default function AboutPage() {
     <>
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">ABOUT</div>
-        <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl whitespace-nowrap">
+        <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl md:whitespace-nowrap">
           Aanchal Jain, Founder of SOTA Advisory.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">

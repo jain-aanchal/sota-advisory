@@ -35,7 +35,7 @@ export default function ContactPage() {
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">CONTACT</div>
         <h1 className="font-serif text-4xl md:text-5xl max-w-3xl">
-          Let&apos;s talk about what&apos;s next for your engineering org.
+          Let&apos;s talk about what&apos;s next for your company.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
           The fastest way to start is a 30-minute discovery call. Prefer email?
