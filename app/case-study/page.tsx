@@ -52,11 +52,11 @@ export default function CaseStudyPage() {
           10-week technical turnaround at an early-stage healthtech startup.
         </h1>
         <p className="mt-6 text-muted max-w-3xl leading-relaxed">
-          As Interim CTO through SOTA Advisory, I led a 10-week technical
-          turnaround and organizational restructuring. The mandate: stabilize
-          infrastructure, optimize AI compute costs, and establish a
-          high-performing engineering culture before onboarding the permanent
-          executive leadership.
+          As Interim CTO, I led a 10-week technical turnaround and
+          organizational restructuring. The mandate: stabilize infrastructure,
+          optimize AI compute costs, and establish a high-performing
+          engineering culture before onboarding the permanent executive
+          leadership.
         </p>
       </section>
 
