@@ -15,7 +15,7 @@ export default async function OpengraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: "80px",
+          padding: "90px",
           background:
             "radial-gradient(ellipse at top left, rgba(201,169,97,0.18), transparent 55%), radial-gradient(ellipse at bottom right, rgba(184,115,51,0.12), transparent 55%), #0a0a0a",
           color: "#f5f5f0",
@@ -25,8 +25,8 @@ export default async function OpengraphImage() {
         <div
           style={{
             display: "flex",
-            fontSize: 22,
-            letterSpacing: "0.24em",
+            fontSize: 26,
+            letterSpacing: "0.28em",
             color: "#c9a961",
           }}
         >
@@ -36,44 +36,13 @@ export default async function OpengraphImage() {
         <div
           style={{
             display: "flex",
-            flexDirection: "column",
-            gap: 32,
+            fontSize: 104,
+            fontWeight: 400,
+            lineHeight: 1.1,
+            letterSpacing: "-0.01em",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              fontSize: 88,
-              fontWeight: 400,
-              lineHeight: 1.05,
-              letterSpacing: "-0.01em",
-            }}
-          >
-            Operator-grade technology leadership.
-          </div>
-          <div
-            style={{
-              display: "flex",
-              fontSize: 88,
-              fontWeight: 400,
-              lineHeight: 1.05,
-              letterSpacing: "-0.01em",
-              color: "#c9a961",
-            }}
-          >
-            When you need it most.
-          </div>
-          <div
-            style={{
-              display: "flex",
-              fontSize: 30,
-              color: "#a8a8a0",
-              maxWidth: 900,
-              lineHeight: 1.4,
-            }}
-          >
-            Twenty years turning technical strategy into working software.
-          </div>
+          Operator-grade technology leadership.
         </div>
 
         <div
@@ -83,11 +52,11 @@ export default async function OpengraphImage() {
             alignItems: "flex-end",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             <span
               style={{
                 color: "#c0c0c0",
-                fontSize: 44,
+                fontSize: 52,
                 letterSpacing: "0.28em",
               }}
             >
@@ -96,14 +65,14 @@ export default async function OpengraphImage() {
             <span
               style={{
                 color: "#c9a961",
-                fontSize: 16,
+                fontSize: 18,
                 letterSpacing: "0.32em",
               }}
             >
               ADVISORY
             </span>
           </div>
-          <div style={{ display: "flex", color: "#a8a8a0", fontSize: 20 }}>
+          <div style={{ display: "flex", color: "#a8a8a0", fontSize: 22 }}>
             sotaadvisory.com
           </div>
         </div>
