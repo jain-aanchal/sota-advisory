@@ -17,9 +17,7 @@ export default function AboutPage() {
           Aanchal Jain, Founder of SOTA Advisory.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
-          A technology executive with 20+ years of engineering leadership,
-          shipping AI-driven products at the scale most growth-stage startups
-          aspire to.
+          Twenty years turning technical strategy into working software.
         </p>
         <div className="mt-8">
           <a
@@ -52,12 +50,14 @@ export default function AboutPage() {
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">FOCUS</h3>
             <p className="text-base">
-              AI strategy, engineering org design, technical due diligence
+              AI strategy, AI cost reduction, interim CTO, technical due
+              diligence
             </p>
           </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">PRIOR</h3>
             <ul className="text-base space-y-1">
+              <li>Double Blind Bio</li>
               <li>Block (Square)</li>
               <li>Slack</li>
               <li>Quantcast</li>
@@ -66,45 +66,46 @@ export default function AboutPage() {
           </div>
           <div>
             <h3 className="text-xs tracking-display text-gold mb-3">PATENTS</h3>
-            <p className="text-base">3 in mobile software innovation</p>
+            <p className="text-base">
+              4, spanning mobile software and AI infrastructure
+            </p>
           </div>
         </aside>
 
         <div className="space-y-6 text-foreground/90 leading-relaxed">
-          <p>
-            At <span className="text-gold">Block (Square)</span>, she boosted
-            production-ready AI code generation by 40% and managed four
-            revenue products at $100M+ ARR.
+          <p className="text-lg">
+            Aanchal Jain has spent her career doing the same thing at
+            different scales: taking systems that cost too much, move too
+            slow, or carry too much risk, and rebuilding them so they
+            don&apos;t.
           </p>
           <p>
-            At <span className="text-gold">Slack</span>, she defined product
-            strategy for Slack Connect, including the external user
-            experiences and security policies that shaped how millions of
-            organizations collaborate across boundaries.
+            At <span className="text-gold">Double Blind Bio</span>, that
+            meant tearing into the AI architecture of a clinical trials
+            startup and cutting token costs 85%+, with a patent on the
+            system that came out of it.
           </p>
           <p>
-            At <span className="text-gold">Quantcast</span>, she cut
-            operational costs by 50% by transforming legacy systems into
-            self-service platforms, turning infrastructure from a tax into a
-            multiplier.
+            At <span className="text-gold">Quantcast</span>, legacy
+            infrastructure became self-service platforms and operational
+            costs dropped 50%.
           </p>
           <p>
-            At <span className="text-gold">Razer</span>, she shipped three
-            Android phones and secured three patents in mobile software
-            innovation.
+            At <span className="text-gold">Block (Square)</span>, AI-driven
+            developer workflows lifted production-ready code generation 40%.
+          </p>
+          <p>
+            At <span className="text-gold">Razer</span>, three Android
+            phones and three patents.
+          </p>
+          <p>
+            At <span className="text-gold">Slack</span>, she led product for
+            Slack Connect, security and compliance included.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
-          <p>
-            As a fractional CTO, she brings depth to founders who need
-            strategic technology leadership without the commitment of a
-            full-time hire. Whether you&apos;re making your first technical
-            hire or architecting for scale, she&apos;s the person in the room
-            who&apos;s already made these calls before.
-          </p>
-          <p>
-            She helps companies use AI and modern tech stacks to build
-            competitive advantage, turning technology from a cost center into
-            a growth engine.
+          <p className="text-lg">
+            Five companies, same pattern. She builds the strategy herself,
+            then hands over a system that works.
           </p>
         </div>
       </section>

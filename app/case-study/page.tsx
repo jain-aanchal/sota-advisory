@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Case Study | SOTA Advisory",
   description:
-    "10-week Interim CTO engagement at an early-stage healthtech startup: 85% cloud cost reduction, engineering restructuring, and executive handover.",
+    "10-week Interim CTO engagement at Double Blind Bio, an early-stage healthtech startup: 85% cloud cost reduction, engineering restructuring, and executive handover.",
 };
 
 const highlights = [
@@ -17,7 +17,7 @@ const highlights = [
 const workstreams = [
   {
     title: "Cloud & AI Cost Optimization",
-    body: "Identified and remediated a Sev 0 GCP and Vertex AI cost spike. Reduced daily cloud spend from $1,957 per day to under $300 per day, an 85% reduction, while maintaining critical system capabilities and extending runway.",
+    body: "Identified and remediated a Sev 0 GCP and Vertex AI cost spike. Reduced daily cloud spend from $1,957 per day to under $300 per day, an 85% reduction, while maintaining critical system capabilities and extending runway. The resulting AI architecture is the subject of a patent.",
   },
   {
     title: "Engineering Leadership & Culture",
@@ -49,14 +49,14 @@ export default function CaseStudyPage() {
           CASE STUDY · INTERIM CTO
         </div>
         <h1 className="font-serif text-4xl md:text-5xl max-w-3xl">
-          10-week technical turnaround at an early-stage healthtech startup.
+          10-week technical turnaround at Double Blind Bio.
         </h1>
         <p className="mt-6 text-muted max-w-3xl leading-relaxed">
-          As Interim CTO, I led a 10-week technical turnaround and
-          organizational restructuring. The mandate: stabilize infrastructure,
-          optimize AI compute costs, and establish a high-performing
-          engineering culture before onboarding the permanent executive
-          leadership.
+          As Interim CTO at Double Blind Bio, an early-stage healthtech
+          startup, I led a 10-week technical turnaround and organizational
+          restructuring. The mandate: stabilize infrastructure, optimize AI
+          compute costs, and establish a high-performing engineering culture
+          before onboarding the permanent executive leadership.
         </p>
       </section>
 
