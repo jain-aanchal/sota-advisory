@@ -104,7 +104,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <SectionHeader
           eyebrow="TRACK RECORD"
-          title="Built and shipped at the scale you&rsquo;re aiming for."
+          title="Built and delivered at the scale you&rsquo;re aiming for."
         />
         <div className="mt-12 grid gap-8 md:grid-cols-3 lg:grid-cols-5">
           {[
@@ -193,13 +193,19 @@ export default function Home() {
           title="What founders and CEOs say."
         />
         <div className="mt-12 grid gap-8 md:grid-cols-2">
-          {testimonials.map((t) => (
+          {testimonials.map((t) => {
+            const preview = t.quote
+              .split(". ")
+              .slice(0, 2)
+              .join(". ")
+              .replace(/[.!?]+$/, "");
+            return (
             <article
               key={t.name}
               className="border border-border/60 p-8 flex flex-col"
             >
               <blockquote className="font-serif text-lg leading-relaxed text-foreground/95 flex-1">
-                &ldquo;{t.quote.split(". ").slice(0, 2).join(". ")}.&rdquo;
+                &ldquo;{preview}.&rdquo;
               </blockquote>
               <div className="gold-divider my-6 max-w-[60px]" />
               <div>
@@ -209,7 +215,8 @@ export default function Home() {
                 <div className="text-sm text-muted mt-1">{t.title}</div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
         <div className="mt-10 text-center">
           <Link
