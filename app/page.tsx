@@ -83,7 +83,7 @@ export default function Home() {
               step: "02",
               title: "Prioritize",
               body:
-                "AI bets ranked by ROI, gross-margin impact, and evidence, so table stakes and needle-movers don’t get confused.",
+                "AI bets ranked by ROI, gross-margin impact, and evidence, so table stakes and needle-movers don't get confused.",
             },
             {
               step: "03",
@@ -111,7 +111,7 @@ export default function Home() {
         />
         <div className="mt-12 grid gap-8 md:grid-cols-3 lg:grid-cols-5">
           {[
-            { stat: "85%", label: "AI spend reduction for a recent fractional-CTO client" },
+            { stat: "85%", label: "AI spend reduction for a recent Interim CTO client (see case study)" },
             { stat: "40%", label: "Lift in production-ready AI code generation at Block" },
             { stat: "$100M+", label: "ARR products managed across 4 revenue lines" },
             { stat: "50%", label: "Operational cost reduction at Quantcast" },
