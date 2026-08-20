@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "About",
@@ -18,6 +19,12 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      <BreadcrumbSchema
+        crumbs={[
+          { name: "Home", path: "/" },
+          { name: "About", path: "/about" },
+        ]}
+      />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">ABOUT</div>
         <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl md:whitespace-nowrap">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Case Study",
@@ -52,6 +53,12 @@ const workstreams = [
 export default function CaseStudyPage() {
   return (
     <>
+      <BreadcrumbSchema
+        crumbs={[
+          { name: "Home", path: "/" },
+          { name: "Case Study", path: "/case-study" },
+        ]}
+      />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">
           CASE STUDY · INTERIM CTO

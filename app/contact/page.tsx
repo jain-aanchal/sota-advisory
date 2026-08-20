@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -39,6 +40,12 @@ const channels = [
 export default function ContactPage() {
   return (
     <>
+      <BreadcrumbSchema
+        crumbs={[
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact" },
+        ]}
+      />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">CONTACT</div>
         <h1 className="font-serif text-4xl md:text-5xl max-w-3xl">

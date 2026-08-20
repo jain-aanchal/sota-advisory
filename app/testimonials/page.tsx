@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { testimonials } from "@/lib/testimonials";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Testimonials",
@@ -18,6 +19,12 @@ export const metadata: Metadata = {
 export default function TestimonialsPage() {
   return (
     <>
+      <BreadcrumbSchema
+        crumbs={[
+          { name: "Home", path: "/" },
+          { name: "Testimonials", path: "/testimonials" },
+        ]}
+      />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">
           TESTIMONIALS
