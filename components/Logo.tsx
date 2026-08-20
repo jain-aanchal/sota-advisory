@@ -17,7 +17,7 @@ export function LogoImage({ className = "" }: { className?: string }) {
   return (
     <Image
       src="/logo.png"
-      alt="SOTA Advisory — Fractional CTO and AI strategy"
+      alt="SOTA Advisory · Fractional CTO and AI strategy"
       width={260}
       height={142}
       className={`object-contain h-auto w-auto ${className}`}

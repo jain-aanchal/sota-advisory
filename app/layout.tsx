@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 
 const SITE_URL = "https://sotaadvisory.com";
 const DESCRIPTION =
-  "Fractional CTO and AI strategy advisory for growth-stage startups. Strategy that ships, from Aanchal Jain — ex-Block, Slack, Quantcast.";
+  "Fractional CTO and AI strategy advisory for growth-stage startups. Strategy that ships, from Aanchal Jain, ex-Block, Slack, Quantcast.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "SOTA Advisory — Fractional CTO & AI Strategy",
+        alt: "SOTA Advisory · Fractional CTO & AI Strategy",
       },
     ],
   },
