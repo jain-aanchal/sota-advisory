@@ -99,7 +99,7 @@ export default function CaseStudyPage() {
             Facing a similar turnaround?
           </h2>
           <p className="mt-4 text-muted max-w-xl mx-auto">
-            Let&apos;s talk about the highest-leverage move you can make in the
+            Let&apos;s talk about the highest-impact move you can make in the
             next 10 weeks.
           </p>
           <Link

@@ -230,7 +230,7 @@ export default function Home() {
             Ready to make technology a growth engine?
           </h2>
           <p className="mt-4 text-muted max-w-xl mx-auto">
-            Let&apos;s spend 30 minutes mapping the highest-leverage move you
+            Let&apos;s spend 30 minutes mapping the highest-impact move you
             can make in the next quarter.
           </p>
           <Link

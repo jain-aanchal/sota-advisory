@@ -46,6 +46,6 @@ export const services: Service[] = [
     title: "Architecture & Technical Due Diligence",
     short:
       "Platform reviews, scalability roadmaps, and independent diligence for investors and boards before major decisions.",
-    long: "Architecture reviews and pragmatic refactor plans that balance velocity today with the leverage you need next year. For investors and boards: independent diligence covering code quality, infrastructure, security posture, team strength, and AI readiness.",
+    long: "Architecture reviews and pragmatic refactor plans that balance velocity today with the room you'll need to scale next year. For investors and boards: independent diligence covering code quality, infrastructure, security posture, team strength, and AI readiness.",
   },
 ];

@@ -71,7 +71,7 @@ export default function ContactPage() {
           </h2>
           <p className="mt-4 text-muted max-w-xl mx-auto">
             Thirty minutes. No deck. I&apos;ll spend the time with you on the
-            highest-leverage move you can make this quarter.
+            highest-impact move you can make this quarter.
           </p>
           <a
             href="https://calendly.com/jain-aanchal/30min"

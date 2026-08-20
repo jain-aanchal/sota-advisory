@@ -17,9 +17,9 @@ export default function AboutPage() {
           Aanchal Jain, Founder of SOTA Advisory.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
-          I&apos;m a technology executive with 20+ years of engineering
-          leadership, shipping AI-driven products at the scale most
-          growth-stage startups aspire to.
+          A technology executive with 20+ years of engineering leadership,
+          shipping AI-driven products at the scale most growth-stage startups
+          aspire to.
         </p>
         <div className="mt-8">
           <a
@@ -72,38 +72,39 @@ export default function AboutPage() {
 
         <div className="space-y-6 text-foreground/90 leading-relaxed">
           <p>
-            At <span className="text-gold">Block (Square)</span>, I boosted
+            At <span className="text-gold">Block (Square)</span>, she boosted
             production-ready AI code generation by 40% and managed four
             revenue products at $100M+ ARR.
           </p>
           <p>
-            At <span className="text-gold">Slack</span>, I defined product
+            At <span className="text-gold">Slack</span>, she defined product
             strategy for Slack Connect, including the external user
             experiences and security policies that shaped how millions of
             organizations collaborate across boundaries.
           </p>
           <p>
-            At <span className="text-gold">Quantcast</span>, I cut operational
-            costs by 50% by transforming legacy systems into self-service
-            platforms, turning infrastructure from a tax into a multiplier.
+            At <span className="text-gold">Quantcast</span>, she cut
+            operational costs by 50% by transforming legacy systems into
+            self-service platforms, turning infrastructure from a tax into a
+            multiplier.
           </p>
           <p>
-            At <span className="text-gold">Razer</span>, I shipped three
+            At <span className="text-gold">Razer</span>, she shipped three
             Android phones and secured three patents in mobile software
             innovation.
           </p>
           <div className="gold-divider my-8 max-w-[120px]" />
           <p>
-            As a fractional CTO, I bring depth to founders who need strategic
-            technology leadership without the commitment of a full-time hire.
-            Whether you&apos;re making your first technical hire or
-            architecting for scale, I help you make the decisions with
-            confidence.
+            As a fractional CTO, she brings depth to founders who need
+            strategic technology leadership without the commitment of a
+            full-time hire. Whether you&apos;re making your first technical
+            hire or architecting for scale, she&apos;s the person in the room
+            who&apos;s already made these calls before.
           </p>
           <p>
-            I&apos;m especially passionate about helping companies use AI and
-            modern tech stacks to create competitive advantages, turning
-            technology from a cost center into a growth engine.
+            She helps companies use AI and modern tech stacks to build
+            competitive advantage, turning technology from a cost center into
+            a growth engine.
           </p>
         </div>
       </section>

@@ -54,12 +54,10 @@ export default function ServicesPage() {
         />
         <ul className="mt-10 grid gap-4 md:grid-cols-2">
           {[
-            "Which AI initiatives will move the needle on our gross margins, and which are simply 'table stakes' for market parity?",
-            "How do we link AI-assisted developer velocity to actual 'Time to Revenue' for our top-tier features?",
-            "How do we transition our AI unit economics from 'experimental burn' to a predictable, high-margin cost structure?",
-            "How do we scale from 5 to 50 engineers without losing the 'founder-speed' that keeps our Customer Acquisition Cost (CAC) low?",
-            "Where are we 'over-building' proprietary tech that could be offloaded to commodity APIs to free up our talent for high-margin innovation?",
-            "How do we identify 'unbilled' value in our current tech stack that can be productized into a high-margin revenue stream?",
+            "Which AI initiatives will move the needle on our gross margins, and which are just parity plays?",
+            "How do we move our AI unit economics from experimental burn to a predictable, high-margin cost line?",
+            "How do we scale from 5 to 50 engineers without losing the founder-speed that keeps our CAC low?",
+            "Where is unbilled value hiding in our tech stack that could become a high-margin revenue stream?",
           ].map((q) => (
             <li
               key={q}
