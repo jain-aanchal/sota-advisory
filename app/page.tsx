@@ -164,7 +164,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <SectionHeader
           eyebrow="PROBLEMS I SOLVE"
-          title="Five pillars of advisory."
+          title="Six pillars of advisory."
           subtitle="Each engagement is scoped to your stage, your team, and the decisions in front of you."
         />
         <div className="mt-12 grid gap-px bg-border/60 border border-border/60 md:grid-cols-2 lg:grid-cols-3">

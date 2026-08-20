@@ -41,4 +41,11 @@ export const services: Service[] = [
       "I tell you what's true about the engineering, the people, and the risk before you acquire, invest, or bet the roadmap.",
     long: "For boards, investors, and acquirers. Independent read on code quality, infrastructure, security posture, team strength, and AI readiness. Delivered as a document your finance and legal teams can act on.",
   },
+  {
+    slug: "engineering-org-design",
+    title: "Engineering Organization Design",
+    short:
+      "I design the teams, hiring plans, and operating cadences that scale from 5 to 50 engineers without losing founder-speed.",
+    long: "Best when the org is starting to feel slow but no one can name why. I diagnose the drag (org shape, career levels, sprint discipline, meeting load), redesign what needs to change, and hand you a plan the team will actually run.",
+  },
 ];
