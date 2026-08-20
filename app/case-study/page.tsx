@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Case Study | SOTA Advisory",
   description:
-    "10-week interim CTO engagement at an early-stage healthtech startup: 85% cloud cost reduction, engineering restructuring, and executive handover.",
+    "10-week Interim CTO engagement at an early-stage healthtech startup: 85% cloud cost reduction, engineering restructuring, and executive handover.",
 };
 
 const highlights = [
@@ -17,7 +17,7 @@ const highlights = [
 const workstreams = [
   {
     title: "Cloud & AI Cost Optimization",
-    body: "Identified and remediated a Sev 0 GCP and Vertex AI cost spike. Reduced daily cloud spend from approximately $1,957 per day to under $300 per day, an 85% reduction, while maintaining critical system capabilities and extending runway.",
+    body: "Identified and remediated a Sev 0 GCP and Vertex AI cost spike. Reduced daily cloud spend from $1,957 per day to under $300 per day, an 85% reduction, while maintaining critical system capabilities and extending runway.",
   },
   {
     title: "Engineering Leadership & Culture",

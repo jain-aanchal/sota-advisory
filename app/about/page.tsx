@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About | SOTA Advisory",
   description:
-    "Aanchal Jain is the founder of SOTA Advisory, a fractional CTO with 20+ years of engineering leadership at Block, Slack, Quantcast, and Razer.",
+    "Aanchal Jain is the founder of SOTA Advisory. A fractional CTO with 20+ years of engineering leadership at Block, Slack, Quantcast, and Razer.",
 };
 
 export default function AboutPage() {
