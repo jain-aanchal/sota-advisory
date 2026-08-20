@@ -94,10 +94,9 @@ export default function AboutPage() {
             don&apos;t.
           </p>
           <p>
-            At <span className="text-gold">Double Blind Bio</span>, that
-            meant tearing into the AI architecture of a clinical trials
-            startup and cutting token costs 85%+, with a patent on the
-            system that came out of it.
+            At <span className="text-gold">Double Blind Bio</span>, a
+            clinical trials startup, she rearchitected the AI stack, cut
+            token costs 85%+, and filed a patent on the resulting system.
           </p>
           <p>
             At <span className="text-gold">Quantcast</span>, legacy
