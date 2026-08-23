@@ -5,11 +5,11 @@ import { useState } from "react";
 import Logo from "./Logo";
 
 const links = [
-  { href: "/services", label: "Services" },
-  { href: "/case-study", label: "Case Study" },
-  { href: "/testimonials", label: "Testimonials" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/services/", label: "Services" },
+  { href: "/case-study/", label: "Case Study" },
+  { href: "/testimonials/", label: "Testimonials" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" },
 ];
 
 const CALENDLY = "https://calendly.com/jain-aanchal/30min";

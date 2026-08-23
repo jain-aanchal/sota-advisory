@@ -37,7 +37,7 @@ export default function Home() {
               BOOK A DISCOVERY CALL
             </Link>
             <Link
-              href="/services"
+              href="/services/"
               className="inline-flex items-center px-6 py-3 border border-border text-foreground text-xs tracking-display hover:border-gold hover:text-gold transition-colors"
             >
               EXPLORE SERVICES
@@ -127,7 +127,7 @@ export default function Home() {
       {/* Case study callout */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <Link
-          href="/case-study"
+          href="/case-study/"
           className="block border border-border/60 hover:border-gold/60 transition-colors p-8 md:p-12 group"
         >
           <div className="grid gap-8 md:grid-cols-[1fr_2fr] items-center">
@@ -171,7 +171,7 @@ export default function Home() {
           {services.map((s) => (
             <Link
               key={s.slug}
-              href={`/services#${s.slug}`}
+              href={`/services/#${s.slug}`}
               className="bg-background p-8 hover:bg-foreground/[0.03] transition-colors group"
             >
               <div className="text-xs tracking-display text-gold mb-3">
@@ -220,7 +220,7 @@ export default function Home() {
         </div>
         <div className="mt-10 text-center">
           <Link
-            href="/testimonials"
+            href="/testimonials/"
             className="inline-flex items-center px-6 py-3 border border-border text-foreground text-xs tracking-display hover:border-gold hover:text-gold transition-colors"
           >
             READ FULL TESTIMONIALS
