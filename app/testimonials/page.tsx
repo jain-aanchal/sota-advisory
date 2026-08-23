@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "Testimonials",
   description:
     "What founders and CEOs say about working with Aanchal Jain and SOTA Advisory as fractional CTO.",
-  alternates: { canonical: "/testimonials" },
+  alternates: { canonical: "/testimonials/" },
   openGraph: {
     title: "Testimonials | SOTA Advisory",
     description:
       "What founders and CEOs say about working with Aanchal Jain as fractional CTO.",
-    url: "/testimonials",
+    url: "/testimonials/",
   },
 };
 
@@ -22,7 +22,7 @@ export default function TestimonialsPage() {
       <BreadcrumbSchema
         crumbs={[
           { name: "Home", path: "/" },
-          { name: "Testimonials", path: "/testimonials" },
+          { name: "Testimonials", path: "/testimonials/" },
         ]}
       />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">

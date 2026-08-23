@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Services",
   description:
     "Interim CTO leadership, AI strategy, AI cost reduction, technical due diligence, and engineering organization design for growth-stage startups.",
-  alternates: { canonical: "/services" },
+  alternates: { canonical: "/services/" },
   openGraph: {
     title: "Services | SOTA Advisory",
     description:
       "Interim CTO leadership, AI strategy, AI cost reduction, technical due diligence, and engineering organization design.",
-    url: "/services",
+    url: "/services/",
   },
 };
 
@@ -23,7 +23,7 @@ export default function ServicesPage() {
       <BreadcrumbSchema
         crumbs={[
           { name: "Home", path: "/" },
-          { name: "Services", path: "/services" },
+          { name: "Services", path: "/services/" },
         ]}
       />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
