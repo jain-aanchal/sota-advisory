@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "Case Study",
   description:
     "10-week Interim CTO engagement at Double Blind Bio, an early-stage healthtech startup: 85% cloud cost reduction, engineering restructuring, and executive handover.",
-  alternates: { canonical: "/case-study" },
+  alternates: { canonical: "/case-study/" },
   openGraph: {
     title: "Case Study | SOTA Advisory",
     description:
       "10-week Interim CTO turnaround at Double Blind Bio: 85% AI spend reduction, 10x developer velocity, and a patent on the resulting architecture.",
-    url: "/case-study",
+    url: "/case-study/",
     type: "article",
   },
 };
@@ -56,7 +56,7 @@ export default function CaseStudyPage() {
       <BreadcrumbSchema
         crumbs={[
           { name: "Home", path: "/" },
-          { name: "Case Study", path: "/case-study" },
+          { name: "Case Study", path: "/case-study/" },
         ]}
       />
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
