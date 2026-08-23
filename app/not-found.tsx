@@ -19,15 +19,15 @@ export default function NotFound() {
       <div className="mt-10 flex flex-wrap gap-4 text-base">
         <Link href="/" className="hover:text-gold">Home</Link>
         <span className="text-muted">·</span>
-        <Link href="/services" className="hover:text-gold">Services</Link>
+        <Link href="/services/" className="hover:text-gold">Services</Link>
         <span className="text-muted">·</span>
-        <Link href="/case-study" className="hover:text-gold">Case Study</Link>
+        <Link href="/case-study/" className="hover:text-gold">Case Study</Link>
         <span className="text-muted">·</span>
-        <Link href="/testimonials" className="hover:text-gold">Testimonials</Link>
+        <Link href="/testimonials/" className="hover:text-gold">Testimonials</Link>
         <span className="text-muted">·</span>
-        <Link href="/about" className="hover:text-gold">About</Link>
+        <Link href="/about/" className="hover:text-gold">About</Link>
         <span className="text-muted">·</span>
-        <Link href="/contact" className="hover:text-gold">Contact</Link>
+        <Link href="/contact/" className="hover:text-gold">Contact</Link>
       </div>
     </section>
   );
