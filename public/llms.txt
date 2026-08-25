@@ -25,6 +25,7 @@ Twenty years turning technical strategy into working software. The person who de
 - [Services](https://sotaadvisory.com/services/): Interim CTO Leadership, AI & Technology Strategy, AI Cost Reduction, Where AI Runs and Where It Doesn't, Technical Due Diligence, Engineering Organization Design
 - [Case Study](https://sotaadvisory.com/case-study/): 10-week Interim CTO turnaround at Double Blind Bio (early-stage healthtech). 85% cloud spend reduction ($1,957/day → $300/day), 10x developer velocity, engineering restructuring, SOC 2 progress, patent on AI architecture
 - [Testimonials](https://sotaadvisory.com/testimonials/): quotes from Shruti Tibrewala (CEO & Cofounder, Double Blind Bio) and Katie Glavinovich (Chief of Staff to the CEO, Double Blind Bio)
+- [Writing](https://sotaadvisory.com/writing/): essays on AI strategy, engineering leadership, and what actually ships. RSS at /feed.xml
 - [About](https://sotaadvisory.com/about/): Aanchal Jain's career pattern of "taking systems that cost too much, move too slow, or carry too much risk, and rebuilding them so they don't"
 - [Contact](https://sotaadvisory.com/contact/): email aanchal@sotaadvisory.com, Calendly, LinkedIn
 
