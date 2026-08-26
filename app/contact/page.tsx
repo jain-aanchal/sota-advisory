@@ -53,7 +53,7 @@ export default function ContactPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="grid gap-px bg-border/60 border border-border/60 md:grid-cols-2">
+        <div className="grid gap-px bg-border/60 border border-border/60 md:grid-cols-3">
           {channels.map((c) => (
             <a
               key={c.label}
