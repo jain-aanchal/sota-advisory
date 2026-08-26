@@ -55,7 +55,7 @@ export default async function OpengraphImage() {
               maxWidth: "1040px",
             }}
           >
-            Operator-grade technology leadership.
+            Your AI bill, under control.
           </div>
           <div
             style={{

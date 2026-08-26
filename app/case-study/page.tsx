@@ -46,7 +46,7 @@ const workstreams = [
   },
   {
     title: "Executive Transition & Hiring",
-    body: "Ran the technical hiring pipeline and authored a comprehensive strategy for a seamless handover to the incoming permanent executive.",
+    body: "Ran the technical hiring pipeline and wrote the handover doc the incoming CTO ran from.",
   },
 ];
 
@@ -70,8 +70,9 @@ export default function CaseStudyPage() {
           As Interim CTO at Double Blind Bio, an early-stage healthtech
           startup, I led a 10-week technical turnaround and organizational
           restructuring. The mandate: stabilize infrastructure, optimize AI
-          compute costs, and establish a high-performing engineering culture
-          before onboarding the permanent executive leadership.
+          compute costs, and establish sprint discipline, on-call rotation,
+          and blameless post-mortems before onboarding the permanent
+          executive leadership.
         </p>
       </section>
 

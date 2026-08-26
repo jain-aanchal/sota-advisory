@@ -30,11 +30,6 @@ const channels = [
     value: "in/aanchaljain16",
     href: "https://linkedin.com/in/aanchaljain16",
   },
-  {
-    label: "WEB",
-    value: "sotaadvisory.com",
-    href: "https://sotaadvisory.com",
-  },
 ];
 
 export default function ContactPage() {

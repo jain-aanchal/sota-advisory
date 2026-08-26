@@ -1,7 +1,24 @@
 import Link from "next/link";
 import { services } from "@/lib/services";
-import { testimonials } from "@/lib/testimonials";
 import SectionHeader from "@/components/SectionHeader";
+
+const AUTHORITY = [
+  "SLACK",
+  "BLOCK",
+  "QUANTCAST",
+  "RAZER",
+  "4 PATENTS",
+  "SHIPPING SINCE 2000",
+];
+
+const SYMPTOMS = [
+  "Your AI spend tripled last quarter and nobody can tell you which feature did it.",
+  "Your CTO left, and the board wants a roadmap in three weeks.",
+  "You have eleven AI ideas and budget for two.",
+  "An investor is asking questions about your architecture that you cannot answer.",
+  "Your team went from 5 engineers to 25, and shipping got slower.",
+  "AI has crept into your billing logic and the risk is starting to feel real.",
+];
 
 export default function Home() {
   return (
@@ -15,17 +32,22 @@ export default function Home() {
               "radial-gradient(ellipse at top, rgba(201,169,97,0.12), transparent 60%), radial-gradient(ellipse at bottom right, rgba(184,115,51,0.08), transparent 60%)",
           }}
         />
-        <div className="max-w-6xl mx-auto px-6 pt-20 pb-24 md:pt-28 md:pb-32">
+        <div className="max-w-6xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-20">
           <div className="text-xs tracking-display text-gold mb-6">
             FRACTIONAL CTO · STRATEGY THAT SHIPS
           </div>
           <h1 className="font-serif text-4xl md:text-6xl leading-tight max-w-4xl">
-            Operator-grade technology leadership.{" "}
-            <span className="text-gold">When you need it most.</span>
+            Your AI bill is growing faster than{" "}
+            <span className="text-gold">your revenue.</span>
           </h1>
-          <p className="mt-8 text-xl text-muted max-w-2xl leading-relaxed">
-            I partner with founders and CEOs to turn AI and technology bets
-            into outcomes the market and the boardroom can measure.
+          <p className="mt-8 text-xl text-muted max-w-3xl leading-relaxed">
+            I&apos;m a fractional CTO for founders and CEOs who need AI spend
+            under control and a roadmap the board will fund. At Double Blind
+            Bio that meant{" "}
+            <span className="text-foreground">
+              $1,957 a day down to under $300, in ten weeks
+            </span>
+            .
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
@@ -44,6 +66,55 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
+
+      {/* Authority bar */}
+      <section className="border-y border-border/60 bg-foreground/[0.02]">
+        <div className="max-w-6xl mx-auto px-6 py-6">
+          <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs tracking-display text-muted">
+            {AUTHORITY.map((item, i) => (
+              <li key={item} className="flex items-center gap-6">
+                <span>{item}</span>
+                {i < AUTHORITY.length - 1 && (
+                  <span aria-hidden="true" className="text-gold/60">
+                    ·
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* You are probably here because */}
+      <section className="max-w-6xl mx-auto px-6 py-20">
+        <SectionHeader
+          eyebrow="YOU ARE PROBABLY HERE BECAUSE"
+          title="One of these is on your desk right now."
+        />
+        <ul className="mt-12 grid gap-4 md:grid-cols-2">
+          {SYMPTOMS.map((s) => (
+            <li
+              key={s}
+              className="border border-border/60 p-6 text-base leading-relaxed flex gap-3"
+            >
+              <span className="text-gold shrink-0">◆</span>
+              <span>{s}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-10 text-lg text-muted">
+          Any of those, and{" "}
+          <Link
+            href="https://calendly.com/jain-aanchal/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gold hover:text-gold-light"
+          >
+            we should talk
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Positioning quote */}
@@ -112,7 +183,7 @@ export default function Home() {
             { stat: "40%", label: "Lift in production-ready AI code generation at Block" },
             { stat: "$100M+", label: "ARR products managed across 4 revenue lines" },
             { stat: "50%", label: "Operational cost reduction at Quantcast" },
-            { stat: "20+", label: "Years of engineering leadership" },
+            { stat: "Since 2000", label: "Shipping production systems" },
           ].map((m) => (
             <div key={m.label} className="border-l border-gold/40 pl-5">
               <div className="font-serif text-4xl text-gold">{m.stat}</div>
@@ -165,7 +236,7 @@ export default function Home() {
         <SectionHeader
           eyebrow="PROBLEMS I SOLVE"
           title="Six pillars of advisory."
-          subtitle="Each engagement is scoped to your stage, your team, and the decisions in front of you."
+          subtitle="Each engagement starts with what&rsquo;s on your desk: the AI bill, the empty CTO seat, the roadmap you have to defend."
         />
         <div className="mt-12 grid gap-px bg-border/60 border border-border/60 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
@@ -180,51 +251,11 @@ export default function Home() {
               <h3 className="font-serif text-xl mb-3 group-hover:text-gold transition-colors">
                 {s.title}
               </h3>
-              <p className="text-base text-muted leading-relaxed">{s.short}</p>
+              <p className="text-base text-muted leading-relaxed">
+                {s.teaser}
+              </p>
             </Link>
           ))}
-        </div>
-      </section>
-
-      {/* Testimonials preview */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <SectionHeader
-          eyebrow="TESTIMONIALS"
-          title="What founders and CEOs say."
-        />
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
-          {testimonials.map((t) => {
-            const preview = t.quote
-              .split(". ")
-              .slice(0, 2)
-              .join(". ")
-              .replace(/[.!?]+$/, "");
-            return (
-            <article
-              key={t.name}
-              className="border border-border/60 p-8 flex flex-col"
-            >
-              <blockquote className="font-serif text-lg leading-relaxed text-foreground/95 flex-1">
-                &ldquo;{preview}.&rdquo;
-              </blockquote>
-              <div className="gold-divider my-6 max-w-[60px]" />
-              <div>
-                <div className="text-sm tracking-display text-gold">
-                  {t.name.toUpperCase()}
-                </div>
-                <div className="text-sm text-muted mt-1">{t.title}</div>
-              </div>
-            </article>
-            );
-          })}
-        </div>
-        <div className="mt-10 text-center">
-          <Link
-            href="/testimonials/"
-            className="inline-flex items-center px-6 py-3 border border-border text-foreground text-xs tracking-display hover:border-gold hover:text-gold transition-colors"
-          >
-            READ FULL TESTIMONIALS
-          </Link>
         </div>
       </section>
 

@@ -51,14 +51,11 @@ export default function TestimonialsPage() {
               {t.quote}
             </blockquote>
             <div className="gold-divider my-6 max-w-[80px]" />
-            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
-              <div>
-                <div className="text-sm tracking-display text-gold">
-                  {t.name.toUpperCase()}
-                </div>
-                <div className="text-base text-muted mt-1">{t.title}</div>
+            <div>
+              <div className="text-sm tracking-display text-gold">
+                {t.name.toUpperCase()}
               </div>
-              <div className="text-sm text-muted">{t.date}</div>
+              <div className="text-base text-muted mt-1">{t.title}</div>
             </div>
           </article>
         ))}

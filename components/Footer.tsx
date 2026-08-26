@@ -8,8 +8,8 @@ export default function Footer() {
         <div>
           <LogoImage />
           <p className="mt-4 text-base text-muted max-w-xs">
-            Operator-grade fractional CTO and AI strategy for growth-stage
-            startups.
+            Fractional and interim CTO work for founders who need the AI bill
+            under control and a roadmap the board will fund.
           </p>
         </div>
         <div>
