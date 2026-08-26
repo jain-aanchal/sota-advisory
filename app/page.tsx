@@ -2,24 +2,6 @@ import Link from "next/link";
 import { services } from "@/lib/services";
 import SectionHeader from "@/components/SectionHeader";
 
-const AUTHORITY = [
-  "SLACK",
-  "BLOCK",
-  "QUANTCAST",
-  "RAZER",
-  "4 PATENTS",
-  "SHIPPING SINCE 2000",
-];
-
-const SYMPTOMS = [
-  "Your AI spend tripled last quarter and nobody can tell you which feature did it.",
-  "Your CTO left, and the board wants a roadmap in three weeks.",
-  "You have eleven AI ideas and budget for two.",
-  "An investor is asking questions about your architecture that you cannot answer.",
-  "Your team went from 5 engineers to 25, and shipping got slower.",
-  "AI has crept into your billing logic and the risk is starting to feel real.",
-];
-
 export default function Home() {
   return (
     <>
@@ -66,55 +48,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
-
-      {/* Authority bar */}
-      <section className="border-y border-border/60 bg-foreground/[0.02]">
-        <div className="max-w-6xl mx-auto px-6 py-6">
-          <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs tracking-display text-muted">
-            {AUTHORITY.map((item, i) => (
-              <li key={item} className="flex items-center gap-6">
-                <span>{item}</span>
-                {i < AUTHORITY.length - 1 && (
-                  <span aria-hidden="true" className="text-gold/60">
-                    ·
-                  </span>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* You are probably here because */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <SectionHeader
-          eyebrow="YOU ARE PROBABLY HERE BECAUSE"
-          title="One of these is on your desk right now."
-        />
-        <ul className="mt-12 grid gap-4 md:grid-cols-2">
-          {SYMPTOMS.map((s) => (
-            <li
-              key={s}
-              className="border border-border/60 p-6 text-base leading-relaxed flex gap-3"
-            >
-              <span className="text-gold shrink-0">◆</span>
-              <span>{s}</span>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-10 text-lg text-muted">
-          Any of those, and{" "}
-          <Link
-            href="https://calendly.com/jain-aanchal/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold-light"
-          >
-            we should talk
-          </Link>
-          .
-        </p>
       </section>
 
       {/* Positioning quote */}
