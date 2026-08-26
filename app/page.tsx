@@ -19,15 +19,17 @@ export default function Home() {
             FOR FOUNDERS · CEOS · VC DILIGENCE
           </div>
           <h1 className="font-serif text-4xl md:text-6xl leading-tight max-w-4xl">
-            Fractional CTO. Interim CTO. Technical due diligence.{" "}
-            <span className="text-gold">Strategy that ships.</span>
+            Technology leadership that shows up in{" "}
+            <span className="text-gold">the P&amp;L.</span>
           </h1>
           <p className="mt-8 text-xl text-muted max-w-3xl leading-relaxed">
-            Recent engagement at Double Blind Bio:{" "}
+            Fractional and interim CTO for founders and CEOs. AI strategy,
+            cost reduction, and technical due diligence. At Double Blind
+            Bio:{" "}
             <span className="text-foreground">
               $1,957 a day of AI spend down to under $300
             </span>
-            , and a patent on the architecture that did it, in ten weeks.
+            , and a patent on the architecture, in ten weeks.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
