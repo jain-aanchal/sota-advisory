@@ -8,8 +8,8 @@ export default function Footer() {
         <div>
           <LogoImage />
           <p className="mt-4 text-base text-muted max-w-xs">
-            Operator-grade fractional CTO and AI strategy for growth-stage
-            startups.
+            Fractional and interim CTO work for founders who need the AI bill
+            under control and a roadmap the board will fund.
           </p>
         </div>
         <div>
@@ -18,7 +18,6 @@ export default function Footer() {
             <li><Link href="/services/" className="hover:text-gold">Services</Link></li>
             <li><Link href="/case-study/" className="hover:text-gold">Case Study</Link></li>
             <li><Link href="/testimonials/" className="hover:text-gold">Testimonials</Link></li>
-            <li><Link href="/writing/" className="hover:text-gold">Writing</Link></li>
             <li><Link href="/about/" className="hover:text-gold">About</Link></li>
             <li><Link href="/contact/" className="hover:text-gold">Contact</Link></li>
           </ul>

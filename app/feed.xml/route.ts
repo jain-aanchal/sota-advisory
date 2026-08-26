@@ -36,7 +36,7 @@ export async function GET() {
   <channel>
     <title>SOTA Advisory Writing</title>
     <link>${BASE}/writing/</link>
-    <description>Essays on AI strategy, engineering leadership, and what actually ships. By Aanchal Jain, Founder of SOTA Advisory.</description>
+    <description>Essays on AI strategy, engineering leadership, and what ships. By Aanchal Jain, Founder of SOTA Advisory.</description>
     <language>en-us</language>
     <lastBuildDate>${now}</lastBuildDate>
     <atom:link href="${BASE}/feed.xml" rel="self" type="application/rss+xml" />

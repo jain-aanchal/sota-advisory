@@ -40,8 +40,7 @@ export default async function WritingIndex() {
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <div className="text-xs tracking-display text-gold mb-6">WRITING</div>
         <h1 className="font-serif text-4xl md:text-5xl max-w-3xl">
-          Essays on AI strategy, engineering leadership, and what actually
-          ships.
+          Essays on AI strategy, engineering leadership, and what ships.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
           Short reads on the questions I keep answering in engagements. Each
