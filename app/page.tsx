@@ -116,7 +116,7 @@ export default function Home() {
             { stat: "40%", label: "Lift in production-ready AI code generation at Block" },
             { stat: "$100M+", label: "ARR products managed across 4 revenue lines" },
             { stat: "50%", label: "Operational cost reduction at Quantcast" },
-            { stat: "Since 2000", label: "Shipping production systems" },
+            { stat: "Since 2006", label: "Shipping production systems" },
           ].map((m) => (
             <div key={m.label} className="border-l border-gold/40 pl-5">
               <div className="font-serif text-4xl text-gold">{m.stat}</div>
