@@ -16,20 +16,18 @@ export default function Home() {
         />
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-20">
           <div className="text-xs tracking-display text-gold mb-6">
-            FRACTIONAL CTO · STRATEGY THAT SHIPS
+            FOR FOUNDERS · CEOS · VC DILIGENCE
           </div>
           <h1 className="font-serif text-4xl md:text-6xl leading-tight max-w-4xl">
-            Your AI bill is growing faster than{" "}
-            <span className="text-gold">your revenue.</span>
+            Fractional CTO. Interim CTO. Technical due diligence.{" "}
+            <span className="text-gold">Strategy that ships.</span>
           </h1>
           <p className="mt-8 text-xl text-muted max-w-3xl leading-relaxed">
-            I&apos;m a fractional CTO for founders and CEOs who need AI spend
-            under control and a roadmap the board will fund. At Double Blind
-            Bio that meant{" "}
+            Recent engagement at Double Blind Bio:{" "}
             <span className="text-foreground">
-              $1,957 a day down to under $300, in ten weeks
+              $1,957 a day of AI spend down to under $300
             </span>
-            .
+            , and a patent on the architecture that did it, in ten weeks.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
