@@ -196,7 +196,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="border border-gold/40 p-10 md:p-16 text-center">
           <h2 className="font-serif text-3xl md:text-4xl">
-            Ready to make technology a growth engine?
+            Ready to close the gap between the roadmap and the codebase?
           </h2>
           <p className="mt-4 text-muted max-w-xl mx-auto">
             Let&apos;s spend 30 minutes mapping the highest-impact move you

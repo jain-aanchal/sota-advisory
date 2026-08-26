@@ -64,8 +64,8 @@ export default function ServicesPage() {
           Strategic technology leadership, scoped to your stage.
         </h1>
         <p className="mt-6 text-muted max-w-2xl leading-relaxed">
-          Every engagement starts with what&rsquo;s on your desk: the AI bill,
-          the empty CTO seat, the roadmap you have to defend.
+          Six pillars of advisory work, three engagement shapes. Every one
+          starts with the same thirty-minute call.
         </p>
       </section>
 

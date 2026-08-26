@@ -35,12 +35,6 @@ export default function AuthorBio() {
           >
             BOOK A DISCOVERY CALL
           </Link>
-          <Link
-            href="/writing/"
-            className="inline-flex items-center px-4 py-2 border border-border text-foreground text-xs tracking-display hover:border-gold hover:text-gold transition-colors"
-          >
-            MORE WRITING
-          </Link>
         </div>
       </div>
     </aside>
