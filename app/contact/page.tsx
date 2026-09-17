@@ -30,6 +30,11 @@ const channels = [
     value: "in/aanchaljain16",
     href: "https://linkedin.com/in/aanchaljain16",
   },
+  {
+    label: "PHONE",
+    value: "+1 (313) 377-2587",
+    href: "tel:+13133772587",
+  },
 ];
 
 export default function ContactPage() {
@@ -53,7 +58,7 @@ export default function ContactPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="grid gap-px bg-border/60 border border-border/60 md:grid-cols-3">
+        <div className="grid gap-px bg-border/60 border border-border/60 md:grid-cols-2 lg:grid-cols-4">
           {channels.map((c) => (
             <a
               key={c.label}
