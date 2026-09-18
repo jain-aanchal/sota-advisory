@@ -58,7 +58,7 @@ export default function ContactPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="grid gap-px bg-border/60 border border-border/60 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-px bg-border/60 border border-border/60 md:grid-cols-2">
           {channels.map((c) => (
             <a
               key={c.label}
@@ -70,7 +70,7 @@ export default function ContactPage() {
               <div className="text-xs tracking-display text-gold mb-3">
                 ◆ {c.label}
               </div>
-              <div className="font-serif text-xl group-hover:text-gold transition-colors break-all">
+              <div className="font-serif text-lg md:text-xl group-hover:text-gold transition-colors break-words">
                 {c.value}
               </div>
             </a>
